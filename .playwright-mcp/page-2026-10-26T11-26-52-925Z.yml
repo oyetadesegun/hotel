@@ -1,0 +1,16 @@
+- generic [active] [ref=f35e1]:
+  - generic [ref=f35e3]:
+    - generic [ref=f35e6]:
+      - text: Recreation
+      - generic [ref=f35e7]: Staff portal, Transcorp Hilton Abuja
+    - heading "Sign in" [level=1] [ref=f35e9]
+    - generic [ref=f35e10]:
+      - generic [ref=f35e11]:
+        - generic [ref=f35e12]: Work email
+        - textbox "Work email" [ref=f35e13]
+      - generic [ref=f35e14]:
+        - generic [ref=f35e15]: Password
+        - textbox "Password" [ref=f35e16]
+      - button "Sign in" [ref=f35e17]
+    - paragraph [ref=f35e18]: Forgot your password? Ask an IT admin to reset it.
+  - alert [ref=f35e19]

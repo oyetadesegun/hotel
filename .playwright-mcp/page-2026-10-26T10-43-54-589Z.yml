@@ -1,0 +1,67 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - banner [ref=f3e3]:
+      - link "Transcorp Hotels Recreation home" [ref=f3e4] [cursor=pointer]:
+        - /url: /
+        - img "Transcorp Hotels" [ref=f3e5]
+        - generic [ref=f3e7]: RECREATION
+      - navigation "Main" [ref=f3e8]:
+        - link "My bookings" [ref=f3e9] [cursor=pointer]:
+          - /url: /bookings
+        - link "Messages" [ref=f3e10] [cursor=pointer]:
+          - /url: /messages
+        - link "Membership" [ref=f3e11] [cursor=pointer]:
+          - /url: /membership
+        - link "Terms" [ref=f3e12] [cursor=pointer]:
+          - /url: /terms
+      - link "Book a facility" [ref=f3e13] [cursor=pointer]:
+        - /url: /?book=1
+        - text: Book a facility
+        - generic [aria-hidden] [ref=f3e14]: →
+    - generic [ref=f3e16]:
+      - banner [ref=f3e17]:
+        - heading "My membership" [level=1] [ref=f3e18]
+      - generic [ref=f3e19]:
+        - generic [ref=f3e20]:
+          - img "Hiltonia Club membership card for Ada Obi, IND - 12 MONTHS, number 5723" [ref=f3e22]:
+            - generic [ref=f3e28]:
+              - img [aria-hidden] [ref=f3e29]:
+                - generic [ref=f3e31]: HILTONIA
+                - generic [ref=f3e32]: FITNESS • CLUB
+              - generic [ref=f3e35]:
+                - generic [ref=f3e36]: HILTONIA CLUB
+                - generic [ref=f3e37]: Transcorp Hilton Abuja
+            - generic [ref=f3e43]:
+              - generic [ref=f3e44]: Ada Obi
+              - generic [ref=f3e45]: IND - 12 MONTHS
+              - generic [ref=f3e46]: "Expires on: 31/10/2027"
+            - generic [ref=f3e71]: "5723"
+          - generic [ref=f3e73]: ACTIVE
+        - generic [ref=f3e75]:
+          - generic [ref=f3e76]:
+            - generic [ref=f3e77]: Category
+            - generic [ref=f3e78]: Individual
+          - generic [ref=f3e79]:
+            - generic [ref=f3e80]: Length
+            - generic [ref=f3e81]: Annual
+          - generic [ref=f3e82]:
+            - generic [ref=f3e83]: Started
+            - generic [ref=f3e84]: 1 Nov 2026
+          - generic [ref=f3e85]:
+            - generic [ref=f3e86]: Card
+            - generic [ref=f3e87]: Collected at desk
+        - generic [ref=f3e88]: RenewalWe will remind you 30 days before your membership ends. Ask the Recreation desk to renew.
+        - link "Book a court" [ref=f3e89] [cursor=pointer]:
+          - /url: /book
+    - contentinfo [ref=f3e90]:
+      - link "Transcorp Hotels Recreation home" [ref=f3e92] [cursor=pointer]:
+        - /url: /
+        - img "Transcorp Hotels" [ref=f3e93]
+        - generic [ref=f3e95]: RECREATION
+      - generic [ref=f3e96]: © 2026 Transcorp Hotels Plc
+      - link "Help centre" [ref=f3e97] [cursor=pointer]:
+        - /url: /messages
+      - link "Terms" [ref=f3e98] [cursor=pointer]:
+        - /url: /terms
+  - button "Open Next.js Dev Tools" [ref=f3e104] [cursor=pointer]
+  - alert [ref=f3e108]

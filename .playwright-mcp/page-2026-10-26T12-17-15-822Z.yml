@@ -1,0 +1,239 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - navigation "Staff" [ref=f2e3]:
+      - generic [ref=f2e6]:
+        - generic [ref=f2e7]: Recreation
+        - generic [ref=f2e8]: Staff portal
+      - generic [ref=f2e9]:
+        - link "Dashboard" [ref=f2e10] [cursor=pointer]:
+          - /url: /staff
+        - generic [ref=f2e16]:
+          - button "Bookings" [ref=f2e17]
+          - generic [ref=f2e23]:
+            - link "Calendar" [ref=f2e24] [cursor=pointer]:
+              - /url: /staff/calendar
+            - link "New booking" [ref=f2e25] [cursor=pointer]:
+              - /url: /staff/bookings/new
+            - link "Verify a booking" [ref=f2e26] [cursor=pointer]:
+              - /url: /staff/verify
+        - generic [ref=f2e27]:
+          - button "Payments" [ref=f2e28]
+          - generic [ref=f2e35]:
+            - link "Payments" [ref=f2e36] [cursor=pointer]:
+              - /url: /staff/payments
+            - link "Refunds" [ref=f2e37] [cursor=pointer]:
+              - /url: /staff/refunds
+        - generic [ref=f2e38]:
+          - button "Members" [ref=f2e39]
+          - generic [ref=f2e48]:
+            - link "Applications" [ref=f2e49] [cursor=pointer]:
+              - /url: /staff/applications
+            - link "Member register" [ref=f2e50] [cursor=pointer]:
+              - /url: /staff/members
+            - link "Guest checks" [ref=f2e51] [cursor=pointer]:
+              - /url: /staff/guest-checks
+        - generic [ref=f2e52]:
+          - button "Facilities and pricing" [expanded] [ref=f2e53]
+          - generic [ref=f2e63]:
+            - link "Facilities and rentals" [ref=f2e64] [cursor=pointer]:
+              - /url: /staff/facilities
+            - link "Rates and rules" [ref=f2e65] [cursor=pointer]:
+              - /url: /staff/rates
+            - link "Terms and conditions" [ref=f2e66] [cursor=pointer]:
+              - /url: /staff/terms
+        - generic [ref=f2e67]:
+          - button "System" [ref=f2e68]
+          - generic [ref=f2e75]:
+            - link "Users and roles" [ref=f2e76] [cursor=pointer]:
+              - /url: /staff/users
+            - link "Notifications" [ref=f2e77] [cursor=pointer]:
+              - /url: /staff/notifications
+            - link "Integrations" [ref=f2e78] [cursor=pointer]:
+              - /url: /staff/integrations
+        - generic [ref=f2e79]:
+          - button "Oversight" [ref=f2e80]
+          - generic [ref=f2e87]:
+            - link "Exceptions" [ref=f2e88] [cursor=pointer]:
+              - /url: /staff/exceptions
+            - link "Reports" [ref=f2e89] [cursor=pointer]:
+              - /url: /staff/reports
+            - link "Audit trail" [ref=f2e90] [cursor=pointer]:
+              - /url: /staff/audit
+      - generic [ref=f2e92]:
+        - text: manager
+        - generic [ref=f2e93]: Admin
+        - generic [ref=f2e94]:
+          - link "Change password" [ref=f2e95] [cursor=pointer]:
+            - /url: /staff/password
+          - button "Sign out" [ref=f2e97]
+    - main [ref=f2e98]:
+      - generic [ref=f2e111]:
+        - heading "Membership rates and booking rules" [level=1] [ref=f2e113]
+        - paragraph [ref=f2e114]: The prices and limits the system uses today.
+      - generic [ref=f2e115]:
+        - generic [ref=f2e116]:
+          - generic [ref=f2e117]:
+            - heading "Membership rates, effective 1 April 2026" [level=2] [ref=f2e118]:
+              - text: Membership rates
+              - generic [ref=f2e119]: ", effective 1 April 2026"
+            - table [ref=f2e120]:
+              - rowgroup [ref=f2e121]:
+                - row [ref=f2e122]:
+                  - columnheader "Category" [ref=f2e123]
+                  - columnheader "Annual" [ref=f2e124]
+                  - columnheader "6 months" [ref=f2e125]
+                  - columnheader "3 months" [ref=f2e126]
+                  - columnheader "1 month" [ref=f2e127]
+              - rowgroup [ref=f2e128]:
+                - row [ref=f2e129]:
+                  - cell "Individual" [ref=f2e130]
+                  - cell "₦902,000" [ref=f2e131]
+                  - cell "₦568,000" [ref=f2e132]
+                  - cell "₦355,000" [ref=f2e133]
+                  - cell "₦216,000" [ref=f2e134]
+                - row [ref=f2e135]:
+                  - cell "Couple" [ref=f2e136]
+                  - cell "₦1,430,000" [ref=f2e137]
+                  - cell "₦902,000" [ref=f2e138]
+                  - cell "₦568,000" [ref=f2e139]
+                  - cell "₦355,000" [ref=f2e140]
+                - row [ref=f2e141]:
+                  - cell "Family" [ref=f2e142]
+                  - cell "₦2,300,000" [ref=f2e143]
+                  - cell "₦1,430,000" [ref=f2e144]
+                  - cell "₦902,000" [ref=f2e145]
+                  - cell "₦568,000" [ref=f2e146]
+                - row [ref=f2e147]:
+                  - cell "Extra child" [ref=f2e148]
+                  - cell "₦568,000" [ref=f2e149]
+                  - cell "₦355,000" [ref=f2e150]
+                  - cell "₦216,000" [ref=f2e151]
+                  - cell "₦120,000" [ref=f2e152]
+                - row [ref=f2e153]:
+                  - cell "Corporate" [ref=f2e154]
+                  - cell "Agreed per company" [ref=f2e155]
+                  - cell "Agreed per company" [ref=f2e156]
+                  - cell "Agreed per company" [ref=f2e157]
+                  - cell "Agreed per company" [ref=f2e158]
+          - generic [ref=f2e159]:
+            - heading "Set new membership rates" [level=2] [ref=f2e160]
+            - generic [ref=f2e161]:
+              - generic [ref=f2e162]:
+                - generic [ref=f2e163]: New rates start on
+                - textbox "New rates start on" [ref=f2e164]: 2026-11-25
+              - table [ref=f2e166]:
+                - rowgroup [ref=f2e167]:
+                  - row [ref=f2e168]:
+                    - columnheader "Category" [ref=f2e169]
+                    - columnheader "Annual (₦)" [ref=f2e170]
+                    - columnheader "6 months (₦)" [ref=f2e171]
+                    - columnheader "3 months (₦)" [ref=f2e172]
+                    - columnheader "1 month (₦)" [ref=f2e173]
+                - rowgroup [ref=f2e174]:
+                  - row [ref=f2e175]:
+                    - rowheader "Individual" [ref=f2e176]
+                    - cell [ref=f2e177]:
+                      - textbox "Individual, Annual" [ref=f2e178]:
+                        - /placeholder: Per company
+                        - text: "950000"
+                    - cell [ref=f2e179]:
+                      - textbox "Individual, 6 months" [ref=f2e180]:
+                        - /placeholder: Per company
+                        - text: "568000"
+                    - cell [ref=f2e181]:
+                      - textbox "Individual, 3 months" [ref=f2e182]:
+                        - /placeholder: Per company
+                        - text: "355000"
+                    - cell [ref=f2e183]:
+                      - textbox "Individual, 1 month" [ref=f2e184]:
+                        - /placeholder: Per company
+                        - text: "216000"
+                  - row [ref=f2e185]:
+                    - rowheader "Couple" [ref=f2e186]
+                    - cell [ref=f2e187]:
+                      - textbox "Couple, Annual" [ref=f2e188]:
+                        - /placeholder: Per company
+                        - text: "1430000"
+                    - cell [ref=f2e189]:
+                      - textbox "Couple, 6 months" [ref=f2e190]:
+                        - /placeholder: Per company
+                        - text: "902000"
+                    - cell [ref=f2e191]:
+                      - textbox "Couple, 3 months" [ref=f2e192]:
+                        - /placeholder: Per company
+                        - text: "568000"
+                    - cell [ref=f2e193]:
+                      - textbox "Couple, 1 month" [ref=f2e194]:
+                        - /placeholder: Per company
+                        - text: "355000"
+                  - row [ref=f2e195]:
+                    - rowheader "Family" [ref=f2e196]
+                    - cell [ref=f2e197]:
+                      - textbox "Family, Annual" [ref=f2e198]:
+                        - /placeholder: Per company
+                        - text: "2300000"
+                    - cell [ref=f2e199]:
+                      - textbox "Family, 6 months" [ref=f2e200]:
+                        - /placeholder: Per company
+                        - text: "1430000"
+                    - cell [ref=f2e201]:
+                      - textbox "Family, 3 months" [ref=f2e202]:
+                        - /placeholder: Per company
+                        - text: "902000"
+                    - cell [ref=f2e203]:
+                      - textbox "Family, 1 month" [ref=f2e204]:
+                        - /placeholder: Per company
+                        - text: "568000"
+                  - row [ref=f2e205]:
+                    - rowheader "Extra child" [ref=f2e206]
+                    - cell [ref=f2e207]:
+                      - textbox "Extra child, Annual" [ref=f2e208]:
+                        - /placeholder: Per company
+                        - text: "568000"
+                    - cell [ref=f2e209]:
+                      - textbox "Extra child, 6 months" [ref=f2e210]:
+                        - /placeholder: Per company
+                        - text: "355000"
+                    - cell [ref=f2e211]:
+                      - textbox "Extra child, 3 months" [ref=f2e212]:
+                        - /placeholder: Per company
+                        - text: "216000"
+                    - cell [ref=f2e213]:
+                      - textbox "Extra child, 1 month" [ref=f2e214]:
+                        - /placeholder: Per company
+                        - text: "120000"
+                  - row [ref=f2e215]:
+                    - rowheader "Corporate" [ref=f2e216]
+                    - cell [ref=f2e217]:
+                      - textbox "Corporate, Annual" [ref=f2e218]:
+                        - /placeholder: Per company
+                    - cell [ref=f2e219]:
+                      - textbox "Corporate, 6 months" [ref=f2e220]:
+                        - /placeholder: Per company
+                    - cell [ref=f2e221]:
+                      - textbox "Corporate, 3 months" [ref=f2e222]:
+                        - /placeholder: Per company
+                    - cell [ref=f2e223]:
+                      - textbox "Corporate, 1 month" [ref=f2e224]:
+                        - /placeholder: Per company
+              - paragraph [ref=f2e225]: Leave a box empty for “agreed per company”. Old rates are kept, so payments already made keep the price that was charged.
+              - button "Save new rates" [ref=f2e226]
+        - complementary [ref=f2e228]:
+          - heading "Booking rules" [level=2] [ref=f2e229]
+          - generic [ref=f2e230]:
+            - generic [ref=f2e231]:
+              - generic [ref=f2e232]: Sessions per person, per facility, in 24 hours
+              - spinbutton "Sessions per person, per facility, in 24 hours" [ref=f2e233]: "2"
+            - generic [ref=f2e234]:
+              - generic [ref=f2e235]: Hours an unpaid reservation is held
+              - spinbutton "Hours an unpaid reservation is held" [ref=f2e236]: "6"
+            - generic [ref=f2e237]:
+              - generic [ref=f2e238]: Days ahead staff can book
+              - spinbutton "Days ahead staff can book" [ref=f2e239]: "30"
+            - generic [ref=f2e240]:
+              - generic [ref=f2e241]: Printed application form fee (₦)
+              - textbox "Printed application form fee (₦)" [ref=f2e242]: "20000"
+            - generic [ref=f2e243]: Booking rules saved.
+            - button "Save rules" [ref=f2e244]
+          - generic [ref=f2e245]: A paid, confirmed booking can never be overridden. This is built in and is not a setting.
+  - alert [ref=f2e109]

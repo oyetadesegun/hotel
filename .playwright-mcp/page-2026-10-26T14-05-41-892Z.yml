@@ -1,0 +1,138 @@
+- generic [active] [ref=f1e1]:
+  - main [ref=f1e4]:
+    - generic [ref=f1e6]:
+      - heading "Add a facility" [level=1] [ref=f1e8]
+      - paragraph [ref=f1e9]: A court, room or space customers can book. You can add rental items once it is saved.
+    - generic [ref=f1e11]:
+      - generic [ref=f1e12]:
+        - generic [ref=f1e13]: Name
+        - textbox "Name" [ref=f1e14]:
+          - /placeholder: e.g. Padel court 2
+      - generic [ref=f1e15]:
+        - generic [ref=f1e16]:
+          - generic [ref=f1e17]: Session length
+          - combobox "Session length" [ref=f1e18]:
+            - option "30 minutes"
+            - option "1 hour" [selected]
+            - option "1.5 hours"
+            - option "2 hours"
+        - generic [ref=f1e19]:
+          - generic [ref=f1e20]: Opens
+          - combobox "Opens" [ref=f1e21]:
+            - option "00:00"
+            - option "00:30"
+            - option "01:00"
+            - option "01:30"
+            - option "02:00"
+            - option "02:30"
+            - option "03:00"
+            - option "03:30"
+            - option "04:00"
+            - option "04:30"
+            - option "05:00"
+            - option "05:30"
+            - option "06:00"
+            - option "06:30"
+            - option "07:00" [selected]
+            - option "07:30"
+            - option "08:00"
+            - option "08:30"
+            - option "09:00"
+            - option "09:30"
+            - option "10:00"
+            - option "10:30"
+            - option "11:00"
+            - option "11:30"
+            - option "12:00"
+            - option "12:30"
+            - option "13:00"
+            - option "13:30"
+            - option "14:00"
+            - option "14:30"
+            - option "15:00"
+            - option "15:30"
+            - option "16:00"
+            - option "16:30"
+            - option "17:00"
+            - option "17:30"
+            - option "18:00"
+            - option "18:30"
+            - option "19:00"
+            - option "19:30"
+            - option "20:00"
+            - option "20:30"
+            - option "21:00"
+            - option "21:30"
+            - option "22:00"
+            - option "22:30"
+            - option "23:00"
+            - option "23:30"
+        - generic [ref=f1e22]:
+          - generic [ref=f1e23]: Closes
+          - combobox "Closes" [ref=f1e24]:
+            - option "00:30"
+            - option "01:00"
+            - option "01:30"
+            - option "02:00"
+            - option "02:30"
+            - option "03:00"
+            - option "03:30"
+            - option "04:00"
+            - option "04:30"
+            - option "05:00"
+            - option "05:30"
+            - option "06:00"
+            - option "06:30"
+            - option "07:00"
+            - option "07:30"
+            - option "08:00"
+            - option "08:30"
+            - option "09:00"
+            - option "09:30"
+            - option "10:00"
+            - option "10:30"
+            - option "11:00"
+            - option "11:30"
+            - option "12:00"
+            - option "12:30"
+            - option "13:00"
+            - option "13:30"
+            - option "14:00"
+            - option "14:30"
+            - option "15:00"
+            - option "15:30"
+            - option "16:00"
+            - option "16:30"
+            - option "17:00"
+            - option "17:30"
+            - option "18:00"
+            - option "18:30"
+            - option "19:00"
+            - option "19:30"
+            - option "20:00"
+            - option "20:30"
+            - option "21:00"
+            - option "21:30"
+            - option "22:00"
+            - option "22:30"
+            - option "23:00"
+            - option "23:30"
+            - option "24:00" [selected]
+      - generic [ref=f1e25]:
+        - generic [ref=f1e26]:
+          - generic [ref=f1e27]: Sessions per person per day
+          - spinbutton "Sessions per person per day" [ref=f1e28]: "2"
+        - generic [ref=f1e29]:
+          - generic [ref=f1e30]: Customers can book ahead (days)
+          - spinbutton "Customers can book ahead (days)" [ref=f1e31]: "7"
+        - generic [ref=f1e32]:
+          - generic [ref=f1e33]: Walk-in rate per session (₦)
+          - textbox "Walk-in rate per session (₦)" [ref=f1e34]:
+            - /placeholder: Not set
+          - generic [ref=f1e35]: Leave empty until the price is confirmed. Members and resident guests are not charged.
+      - generic [ref=f1e36]:
+        - checkbox "Open for booking" [checked] [ref=f1e37]
+        - generic [ref=f1e38]: Open for booking
+      - button "Add facility" [ref=f1e39]
+  - button "Open Next.js Dev Tools" [ref=f1e45] [cursor=pointer]
+  - alert [ref=f1e49]

@@ -1,0 +1,135 @@
+- generic [active] [ref=f1e1]:
+  - main [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "Transcorp Hotels Recreation home" [ref=f1e4] [cursor=pointer]:
+        - /url: "#top"
+        - img "Transcorp Hotels" [ref=f1e5]
+        - generic [ref=f1e7]: RECREATION
+      - navigation "Main navigation" [ref=f1e8]:
+        - link "Facilities" [ref=f1e9] [cursor=pointer]:
+          - /url: "#facilities"
+        - link "How it works" [ref=f1e10] [cursor=pointer]:
+          - /url: "#how-it-works"
+        - link "Membership" [ref=f1e11] [cursor=pointer]:
+          - /url: "#membership"
+        - link "My bookings" [ref=f1e12] [cursor=pointer]:
+          - /url: /bookings
+      - generic [ref=f1e13]:
+        - button "Account menu for Tunde Bakare" [ref=f1e15] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f1e16]: TB
+        - button "Book a facility" [ref=f1e19] [cursor=pointer]
+    - generic [ref=f1e23]:
+      - generic [ref=f1e24]: TRANSCORP HOTELS RECREATION
+      - heading [level=1] [ref=f1e27]:
+        - text: Recreation
+        - emphasis [ref=f1e28]: redefined.
+      - paragraph [ref=f1e29]: Make time for movement, connection, and play. Discover recreation facilities designed for better days at Transcorp Hotels.
+      - generic [ref=f1e30]:
+        - button "Find a facility" [ref=f1e31] [cursor=pointer]
+        - link "▶ See how it works" [ref=f1e34] [cursor=pointer]:
+          - /url: "#how-it-works"
+          - generic [ref=f1e35]: ▶
+          - text: See how it works
+      - generic [ref=f1e36]:
+        - generic [ref=f1e37]:
+          - generic [ref=f1e38]: AO
+          - generic [ref=f1e39]: MK
+          - generic [ref=f1e40]: +
+        - generic [ref=f1e41]:
+          - strong [ref=f1e42]: 2,400+
+          - text: sessions booked this month
+    - generic [ref=f1e43]:
+      - generic [ref=f1e44]: BUILT FOR BETTER DAYS
+      - strong [ref=f1e46]: Secure payments
+      - strong [ref=f1e50]: Instant confirmation
+      - strong [ref=f1e53]: 07:00 – 00:00 daily
+    - generic [ref=f1e57]:
+      - generic [ref=f1e58]:
+        - generic [ref=f1e59]:
+          - text: FIND YOUR FLOW
+          - heading [level=2] [ref=f1e60]:
+            - text: Something for
+            - emphasis [ref=f1e61]: every mood.
+        - button "Book a facility" [ref=f1e62] [cursor=pointer]
+      - generic [ref=f1e65]:
+        - button "Family friendly Badminton Indoor hall · 1-hour sessions Book" [ref=f1e66] [cursor=pointer]:
+          - generic [ref=f1e67]: Family friendly
+          - generic [ref=f1e72]:
+            - generic [ref=f1e73]:
+              - heading "Badminton" [level=3] [ref=f1e74]
+              - paragraph [ref=f1e75]: Indoor hall · 1-hour sessions
+            - generic [ref=f1e79]: Book
+        - button "Most popular Padel Indoor & outdoor · 1-hour sessions Book" [ref=f1e82] [cursor=pointer]:
+          - generic [ref=f1e83]: Most popular
+          - generic [ref=f1e88]:
+            - generic [ref=f1e89]:
+              - heading "Padel" [level=3] [ref=f1e90]
+              - paragraph [ref=f1e91]: Indoor & outdoor · 1-hour sessions
+            - generic [ref=f1e95]: Book
+        - button "Quiet hours Squash Climate controlled · 1-hour sessions Book" [ref=f1e98] [cursor=pointer]:
+          - generic [ref=f1e99]: Quiet hours
+          - generic [ref=f1e104]:
+            - generic [ref=f1e105]:
+              - heading "Squash" [level=3] [ref=f1e106]
+              - paragraph [ref=f1e107]: Climate controlled · 1-hour sessions
+            - generic [ref=f1e111]: Book
+        - button "Open today Tennis Floodlit courts · 1-hour sessions Book" [ref=f1e114] [cursor=pointer]:
+          - generic [ref=f1e115]: Open today
+          - generic [ref=f1e120]:
+            - generic [ref=f1e121]:
+              - heading "Tennis" [level=3] [ref=f1e122]
+              - paragraph [ref=f1e123]: Floodlit courts · 1-hour sessions
+            - generic [ref=f1e127]: Book
+    - generic [ref=f1e130]:
+      - generic [ref=f1e136]:
+        - strong [ref=f1e137]: Your court is waiting.
+        - generic [ref=f1e138]: Booking confirmed · BK-7Q4M-2931
+      - generic [ref=f1e141]:
+        - text: SIMPLE BY DESIGN
+        - heading [level=2] [ref=f1e142]:
+          - text: From “let’s play”to
+          - emphasis [ref=f1e143]: let’s go.
+        - paragraph [ref=f1e144]: We’ve made booking feel less like admin and more like the start of something good.
+        - generic [ref=f1e145]:
+          - generic [ref=f1e146]:
+            - generic [ref=f1e147]: "01"
+            - generic [ref=f1e148]:
+              - strong [ref=f1e149]: Tell us who’s playing
+              - paragraph [ref=f1e150]: Members and resident guests are checked automatically and book free.
+          - generic [ref=f1e151]:
+            - generic [ref=f1e152]: "02"
+            - generic [ref=f1e153]:
+              - strong [ref=f1e154]: Pick your place and time
+              - paragraph [ref=f1e155]: See live availability and secure your spot in one click.
+          - generic [ref=f1e156]:
+            - generic [ref=f1e157]: "03"
+            - generic [ref=f1e158]:
+              - strong [ref=f1e159]: Show up and play
+              - paragraph [ref=f1e160]: Get your booking code by email and show it at the desk.
+    - generic [ref=f1e161]:
+      - generic [ref=f1e162]:
+        - text: MORE THAN A BOOKING
+        - heading [level=2] [ref=f1e163]:
+          - text: Make recreationpart of
+          - emphasis [ref=f1e164]: your routine.
+        - paragraph [ref=f1e165]: Join a community that makes time for movement, connection, and a little healthy competition.
+        - link "Explore membership" [ref=f1e166] [cursor=pointer]:
+          - /url: /membership
+      - generic [ref=f1e169]:
+        - strong [ref=f1e175]:
+          - text: One place.
+          - emphasis [ref=f1e176]: Every kind of play.
+        - generic [ref=f1e177]: Memberships · Guests · Walk-ins
+    - generic [ref=f1e178]:
+      - generic [ref=f1e179]:
+        - img "Transcorp Hotels" [ref=f1e180]
+        - generic [ref=f1e182]: RECREATION
+      - generic [ref=f1e183]: © 2026 Transcorp Hotels Plc
+      - generic [ref=f1e184]:
+        - link "Help centre" [ref=f1e185] [cursor=pointer]:
+          - /url: /messages
+        - link "Terms" [ref=f1e186] [cursor=pointer]:
+          - /url: /terms
+        - link "Privacy" [ref=f1e187] [cursor=pointer]:
+          - /url: /terms
+  - alert [ref=f1e188]

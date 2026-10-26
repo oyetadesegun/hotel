@@ -1,0 +1,46 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e4]:
+    - banner [ref=f5e5]:
+      - heading "My membership" [level=1] [ref=f5e6]
+    - generic [ref=f5e7]:
+      - generic [ref=f5e8]:
+        - img "Hiltonia Club membership card for Ada Obi, IND - 12 MONTHS, number 5723" [ref=f5e10]:
+          - generic [ref=f5e16]:
+            - img [aria-hidden] [ref=f5e17]:
+              - generic [ref=f5e19]: HILTONIA
+              - generic [ref=f5e20]: FITNESS • CLUB
+            - generic [ref=f5e23]:
+              - generic [ref=f5e24]: HILTONIA CLUB
+              - generic [ref=f5e25]: Transcorp Hilton Abuja
+          - generic [ref=f5e31]:
+            - generic [ref=f5e32]: Ada Obi
+            - generic [ref=f5e33]: IND - 12 MONTHS
+            - generic [ref=f5e34]: "Expires on: 31/10/2027"
+          - generic [ref=f5e59]: "5723"
+        - generic [ref=f5e61]: ACTIVE
+      - generic [ref=f5e63]:
+        - generic [ref=f5e64]:
+          - generic [ref=f5e65]: Category
+          - generic [ref=f5e66]: Individual
+        - generic [ref=f5e67]:
+          - generic [ref=f5e68]: Length
+          - generic [ref=f5e69]: Annual
+        - generic [ref=f5e70]:
+          - generic [ref=f5e71]: Started
+          - generic [ref=f5e72]: 1 Nov 2026
+        - generic [ref=f5e73]:
+          - generic [ref=f5e74]: Card
+          - generic [ref=f5e75]: Collected at desk
+      - generic [ref=f5e76]: RenewalWe will remind you 30 days before your membership ends. Ask the Recreation desk to renew.
+      - link "Book a court" [ref=f5e77] [cursor=pointer]:
+        - /url: /book
+    - navigation "Main" [ref=f5e78]:
+      - link "Book" [ref=f5e79] [cursor=pointer]:
+        - /url: /?book=1
+      - link "My bookings" [ref=f5e83] [cursor=pointer]:
+        - /url: /bookings
+      - link "Messages" [ref=f5e87] [cursor=pointer]:
+        - /url: /messages
+      - link "Membership" [ref=f5e91] [cursor=pointer]:
+        - /url: /membership
+  - button "Open Next.js Dev Tools" [ref=f5e99] [cursor=pointer]

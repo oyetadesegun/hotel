@@ -1,0 +1,71 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - navigation "Staff" [ref=f4e3]:
+      - generic [ref=f4e6]:
+        - generic [ref=f4e7]: Recreation
+        - generic [ref=f4e8]: Staff portal
+      - generic [ref=f4e9]:
+        - link "Dashboard" [ref=f4e10] [cursor=pointer]:
+          - /url: /staff
+        - generic [ref=f4e16]:
+          - button "Bookings" [ref=f4e17]
+          - generic [ref=f4e23]:
+            - link "Calendar" [ref=f4e24] [cursor=pointer]:
+              - /url: /staff/calendar
+            - link "New booking" [ref=f4e25] [cursor=pointer]:
+              - /url: /staff/bookings/new
+            - link "Verify a booking" [ref=f4e26] [cursor=pointer]:
+              - /url: /staff/verify
+        - generic [ref=f4e27]:
+          - button "Members" [expanded] [ref=f4e28]
+          - generic [ref=f4e39]:
+            - link "Applications" [ref=f4e40] [cursor=pointer]:
+              - /url: /staff/applications
+            - link "Member register" [ref=f4e41] [cursor=pointer]:
+              - /url: /staff/members
+            - link "Guest checks" [ref=f4e42] [cursor=pointer]:
+              - /url: /staff/guest-checks
+        - generic [ref=f4e43]:
+          - button "Facilities and pricing" [ref=f4e44]
+          - generic [ref=f4e52]:
+            - link "Facilities and rentals" [ref=f4e53] [cursor=pointer]:
+              - /url: /staff/facilities
+            - link "Rates and rules" [ref=f4e54] [cursor=pointer]:
+              - /url: /staff/rates
+            - link "Terms and conditions" [ref=f4e55] [cursor=pointer]:
+              - /url: /staff/terms
+      - generic [ref=f4e57]:
+        - text: Sam Staff
+        - generic [ref=f4e58]: Staff
+        - generic [ref=f4e59]:
+          - link "Change password" [ref=f4e60] [cursor=pointer]:
+            - /url: /staff/password
+          - button "Sign out" [ref=f4e62]
+    - main [ref=f4e63]:
+      - generic [ref=f4e65]:
+        - heading "Guest checks" [level=1] [ref=f4e67]
+        - paragraph [ref=f4e68]: Resident guests who booked online. Confirm each stay at reception before they play.
+      - table [ref=f4e70]:
+        - rowgroup [ref=f4e71]:
+          - row [ref=f4e72]:
+            - columnheader "When" [ref=f4e73]
+            - columnheader "Facility" [ref=f4e74]
+            - columnheader "Guest" [ref=f4e75]
+            - columnheader "Room" [ref=f4e76]
+            - columnheader "Phone" [ref=f4e77]
+            - columnheader "Code" [ref=f4e78]
+            - columnheader [ref=f4e79]
+        - rowgroup [ref=f4e80]:
+          - row [ref=f4e81]:
+            - cell "Mon 26 Oct, 17:00" [ref=f4e82]
+            - cell "Tennis" [ref=f4e83]
+            - cell "Grace Okafor" [ref=f4e84]
+            - cell "1204" [ref=f4e85]
+            - cell "08077770000" [ref=f4e86]
+            - cell [ref=f4e87]:
+              - link "BK-2JFA-8915" [ref=f4e88] [cursor=pointer]:
+                - /url: /staff/bookings/BK-2JFA-8915
+            - cell [ref=f4e89]:
+              - button "Stay confirmed" [ref=f4e91]
+      - generic [ref=f4e92]: Until the hotel system (OPERA) is connected, online bookings from resident guests are not checked automatically. If someone is not a guest, open the booking and cancel it.
+  - alert [ref=f4e93]

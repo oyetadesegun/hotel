@@ -1,0 +1,49 @@
+[    8359ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/0eda0er5h4lzo.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/login:0
+[    8359ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/1xulvbkfktyoi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/login:0
+[   22387ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/0eda0er5h4lzo.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/login:0
+[   22387ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/1xulvbkfktyoi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/login:0
+[   46677ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/0eda0er5h4lzo.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership:0
+[   46679ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/1xulvbkfktyoi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership:0
+[   55270ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3100/membership:0
+[   55270ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3100/membership:0
+[   58159ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/0eda0er5h4lzo.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership:0
+[   58159ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/1xulvbkfktyoi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership:0
+[   66809ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/0eda0er5h4lzo.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership/profile:0
+[   66809ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/1xulvbkfktyoi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership/profile:0
+[   92360ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/0eda0er5h4lzo.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership/profile:0
+[   92360ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/1xulvbkfktyoi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership/profile:0
+[  111949ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/0eda0er5h4lzo.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership/card:0
+[  111950ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/1xulvbkfktyoi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership/card:0
+[  129365ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/0eda0er5h4lzo.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership/profile:0
+[  129365ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/1xulvbkfktyoi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership/profile:0
+[  142675ms] TypeError: Cannot read properties of undefined (reading 'href')
+    at M (http://localhost:3100/_next/static/chunks/35nwam_2slx2p.js:1:15701)
+    at ax (http://localhost:3100/_next/static/chunks/1s37vwjm584j-.js:1:74484)
+    at o4 (http://localhost:3100/_next/static/chunks/1s37vwjm584j-.js:1:94777)
+    at ih (http://localhost:3100/_next/static/chunks/1s37vwjm584j-.js:1:106466)
+    at sw (http://localhost:3100/_next/static/chunks/1s37vwjm584j-.js:1:150771)
+    at http://localhost:3100/_next/static/chunks/1s37vwjm584j-.js:1:150616
+    at sb (http://localhost:3100/_next/static/chunks/1s37vwjm584j-.js:1:150624)
+    at su (http://localhost:3100/_next/static/chunks/1s37vwjm584j-.js:1:146574)
+    at sJ (http://localhost:3100/_next/static/chunks/1s37vwjm584j-.js:1:172334)
+    at MessagePort.z (http://localhost:3100/_next/static/chunks/1s37vwjm584j-.js:1:225273)
+[  149540ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/1xulvbkfktyoi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/staff:0
+[  176409ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/1xulvbkfktyoi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership/profile:0
+[  184131ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/1xulvbkfktyoi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership/profile:0
+[ 1319474ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/?_rsc=xptGM6PKBzf4Lqbu:0
+[ 1322491ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/1xulvbkfktyoi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership/profile:0
+[ 1333329ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/?_rsc=xptGM6PKBzf4Lqbu:0
+[ 1333351ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/messages?_rsc=xptGM6PKBzf4Lqbu:0
+[ 1333353ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/terms?_rsc=xptGM6PKBzf4Lqbu:0
+[ 1336360ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/1xulvbkfktyoi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership/profile:0
+[ 1342516ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/membership/me?_rsc=xptGM6PKBzf4Lqbu:0
+[ 1345517ms] [WARNING] The resource http://localhost:3100/_next/static/chunks/1xulvbkfktyoi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3100/membership/profile:0
+[ 1345864ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/messages?_rsc=xptGM6PKBzf4Lqbu:0
+[ 1347968ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/?book=1&_rsc=xptGM6PKBzf4Lqbu:0
+[ 1347975ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/?_rsc=xptGM6PKBzf4Lqbu:0
+[ 1350364ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/membership/me?_rsc=bQmjkvmPrSxuBRfn:0
+[ 1350370ms] [ERROR] Failed to fetch RSC payload for http://localhost:3100/membership/me. Falling back to browser navigation. TypeError: Failed to fetch
+    at n (http://localhost:3100/_next/static/chunks/3l_qmp-61z4yc.js:2:37083)
+    at M (http://localhost:3100/_next/static/chunks/3l_qmp-61z4yc.js:1:35971)
+    at async b (http://localhost:3100/_next/static/chunks/3l_qmp-61z4yc.js:1:33414)
+    at async S (http://localhost:3100/_next/static/chunks/3l_qmp-61z4yc.js:1:8510) @ http://localhost:3100/_next/static/chunks/3l_qmp-61z4yc.js:0

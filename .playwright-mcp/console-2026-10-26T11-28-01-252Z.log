@@ -1,0 +1,5 @@
+[ 9101698ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/staff/verify?_rsc=gY1URx_xjcaEwuKV:0
+[ 9101700ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/staff/payments?_rsc=gY1URx_xjcaEwuKV:0
+[ 9102048ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/staff/bookings/new?_rsc=gY1URx_xjcaEwuKV:0
+[ 9102128ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/staff/calendar?_rsc=gY1URx_xjcaEwuKV:0
+[ 9102444ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/staff?_rsc=gY1URx_xjcaEwuKV:0

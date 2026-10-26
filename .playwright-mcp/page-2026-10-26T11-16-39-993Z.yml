@@ -1,0 +1,21 @@
+- generic [active] [ref=f31e1]:
+  - alert [ref=f31e2]: Choose your password
+  - generic [ref=f31e4]:
+    - generic [ref=f31e7]:
+      - text: Recreation
+      - generic [ref=f31e8]: Staff portal, Transcorp Hilton Abuja
+    - generic [ref=f31e9]:
+      - heading "Choose your password" [level=1] [ref=f31e10]
+      - paragraph [ref=f31e11]: You signed in with a temporary password. Choose your own to continue.
+    - generic [ref=f31e12]:
+      - generic [ref=f31e13]:
+        - generic [ref=f31e14]: Temporary password
+        - textbox "Temporary password" [ref=f31e15]
+      - generic [ref=f31e16]:
+        - generic [ref=f31e17]: New password
+        - textbox "New password" [ref=f31e18]
+        - generic [ref=f31e19]: At least 10 characters, with letters and a number.
+      - generic [ref=f31e20]:
+        - generic [ref=f31e21]: Confirm new password
+        - textbox "Confirm new password" [ref=f31e22]
+      - button "Save password" [ref=f31e23]

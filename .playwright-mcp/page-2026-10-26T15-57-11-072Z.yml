@@ -1,0 +1,34 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - link "TRANSCORP HILTON ABUJA · RECREATION" [ref=e8] [cursor=pointer]:
+        - /url: /
+      - heading [level=2] [ref=e9]:
+        - text: Make room
+        - emphasis [ref=e10]: for play.
+      - paragraph [ref=e11]: Tennis, padel, squash and badminton at the Hiltonia Club. One sign-in for members and staff.
+      - list [ref=e12]:
+        - listitem [ref=e13]: "Members: your card, profile and application progress"
+        - listitem [ref=e19]: Book courts and see your bookings
+        - listitem [ref=e23]: "Staff: applications, bookings and the desk"
+    - main [ref=e28]:
+      - img "Transcorp Hotels" [ref=e29]
+      - generic [ref=e30]:
+        - heading "Set up the staff portal" [level=1] [ref=e31]
+        - paragraph [ref=e32]: "There are no staff accounts yet. Create the first one: an admin, who then adds everyone else."
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: Your full name
+          - textbox "Your full name" [ref=e36]
+        - generic [ref=e37]:
+          - generic [ref=e38]: Work email
+          - textbox "Work email" [ref=e39]
+        - generic [ref=e40]:
+          - generic [ref=e41]: Password
+          - textbox "Password" [ref=e42]
+          - generic [ref=e43]: At least 10 characters, with letters and a number.
+        - generic [ref=e44]:
+          - generic [ref=e45]: Confirm password
+          - textbox "Confirm password" [ref=e46]
+        - button "Create admin account" [ref=e47]
+  - alert [ref=e48]

@@ -1,0 +1,37 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e205]:
+    - generic [ref=f1e206]:
+      - link "TRANSCORP HILTON ABUJA · RECREATION" [ref=f1e207] [cursor=pointer]:
+        - /url: /
+      - heading [level=2] [ref=f1e208]:
+        - text: Make room
+        - emphasis [ref=f1e209]: for play.
+      - paragraph [ref=f1e210]: Tennis, padel, squash and badminton at the Hiltonia Club. One sign-in for members and staff.
+      - list [ref=f1e211]:
+        - listitem [ref=f1e212]: "Members: your card, profile and application progress"
+        - listitem [ref=f1e218]: Book courts and see your bookings
+        - listitem [ref=f1e222]: "Staff: applications, bookings and the desk"
+    - main [ref=f1e227]:
+      - img "Transcorp Hotels" [ref=f1e228]
+      - generic [ref=f1e229]:
+        - heading "Welcome back" [level=1] [ref=f1e230]
+        - paragraph [ref=f1e231]: Members and staff sign in here with their email and password.
+      - generic [ref=f1e232]:
+        - generic [ref=f1e233]:
+          - generic [ref=f1e234]: Email
+          - textbox "Email" [ref=f1e235]
+        - generic [ref=f1e236]:
+          - generic [ref=f1e237]: Password
+          - textbox "Password" [ref=f1e238]
+        - button "Sign in" [ref=f1e239]
+      - generic [ref=f1e240]:
+        - paragraph [ref=f1e241]:
+          - text: Not a member yet?
+          - link "See membership plans" [ref=f1e242] [cursor=pointer]:
+            - /url: /membership
+        - paragraph [ref=f1e243]: Forgot your password? Members, ask the Recreation desk. Staff, ask an admin.
+        - paragraph [ref=f1e244]:
+          - text: Setting up for the first time?
+          - link "Create the first admin" [ref=f1e245] [cursor=pointer]:
+            - /url: /staff/setup
+  - alert [ref=f1e188]: Welcome back

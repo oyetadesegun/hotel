@@ -1,0 +1,113 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "Transcorp Hotels Recreation home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Transcorp Hotels" [ref=e5]
+        - generic [ref=e7]: RECREATION
+      - navigation "Main" [ref=e8]:
+        - link "My bookings" [ref=e9] [cursor=pointer]:
+          - /url: /bookings
+        - link "Messages" [ref=e10] [cursor=pointer]:
+          - /url: /messages
+        - link "Membership" [ref=e11] [cursor=pointer]:
+          - /url: /membership
+        - link "Terms" [ref=e12] [cursor=pointer]:
+          - /url: /terms
+      - link "Book a facility" [ref=e13] [cursor=pointer]:
+        - /url: /?book=1
+        - text: Book a facility
+        - generic [aria-hidden] [ref=e14]: →
+    - generic [ref=e17]:
+      - banner [ref=e18]:
+        - generic [ref=e19]: MEMBERSHIP
+        - heading [level=1] [ref=e21]:
+          - text: Make recreation part of
+          - emphasis [ref=e22]: your routine.
+        - paragraph [ref=e23]: Pick the category and length that suits you, pay online, then complete your profile from the link we email you.
+      - generic [ref=e25]:
+        - region [ref=e26]:
+          - generic [ref=e27]:
+            - heading "2026 rates" [level=2] [ref=e28]
+            - radiogroup "Membership length" [ref=e30]:
+              - radio "1 month" [ref=e31]
+              - radio "3 months" [ref=e32]
+              - radio "6 months" [ref=e33]
+              - radio "Annual" [checked] [ref=e34]
+          - radiogroup "Membership category" [ref=e35]:
+            - radio "INDIVIDUAL Individual One adult ₦902,000 per year" [checked] [ref=e36]:
+              - generic [ref=e37]: INDIVIDUAL
+              - heading "Individual" [level=3] [ref=e38]
+              - paragraph [ref=e39]: One adult
+              - generic [ref=e40]:
+                - generic [ref=e41]: ₦902,000
+                - text: per year
+            - radio "COUPLE Couple Two adults ₦1,430,000 per year" [ref=e42]:
+              - generic [ref=e43]: COUPLE
+              - heading "Couple" [level=3] [ref=e44]
+              - paragraph [ref=e45]: Two adults
+              - generic [ref=e46]:
+                - generic [ref=e47]: ₦1,430,000
+                - text: per year
+            - radio "FAMILY Family Two adults and their children ₦2,300,000 per year" [ref=e48]:
+              - generic [ref=e49]: FAMILY
+              - heading "Family" [level=3] [ref=e50]
+              - paragraph [ref=e51]: Two adults and their children
+              - generic [ref=e52]:
+                - generic [ref=e53]: ₦2,300,000
+                - text: per year
+            - radio "EXTRA CHILD Extra child Add a child to a family plan ₦568,000 per year" [ref=e54]:
+              - generic [ref=e55]: EXTRA CHILD
+              - heading "Extra child" [level=3] [ref=e56]
+              - paragraph [ref=e57]: Add a child to a family plan
+              - generic [ref=e58]:
+                - generic [ref=e59]: ₦568,000
+                - text: per year
+            - radio "CORPORATE Corporate Staff of a partner company Agreed per company" [ref=e60]:
+              - generic [ref=e61]: CORPORATE
+              - heading "Corporate" [level=3] [ref=e62]
+              - paragraph [ref=e63]: Staff of a partner company
+              - generic [ref=e64]: Agreed per company
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - text: YOUR CHOICE
+              - generic [ref=e67]: Individual, annual
+              - generic [ref=e68]: Pay now and complete your profile afterwards.
+            - button "Pay ₦902,000" [ref=e69]
+          - paragraph [ref=e73]: Effective 1 April 2026. Corporate rates are agreed with the Recreation desk.
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - generic [ref=e76]: WHAT YOU GET
+            - list [ref=e77]:
+              - listitem [ref=e78]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]: Free court booking
+                  - text: Book padel, tennis, squash and badminton with no charge.
+              - listitem [ref=e85]:
+                - generic [ref=e91]:
+                  - generic [ref=e92]: Pay first, details after
+                  - text: Pay online in a minute, then complete your profile from the link we email you.
+              - listitem [ref=e93]:
+                - generic [ref=e98]:
+                  - generic [ref=e99]: Your membership number
+                  - text: Issued once the Recreation Manager approves you.
+          - generic [ref=e100]:
+            - paragraph [ref=e101]:
+              - text: One place.
+              - emphasis [ref=e102]: Every kind of play.
+            - link "Choose a plan" [ref=e103] [cursor=pointer]:
+              - /url: "#rates"
+            - link "Already a member? See my membership" [ref=e106] [cursor=pointer]:
+              - /url: /membership/me
+            - paragraph [ref=e107]: First-time members who choose the printed form pay ₦20,000 for it.
+    - contentinfo [ref=e108]:
+      - link "Transcorp Hotels Recreation home" [ref=e110] [cursor=pointer]:
+        - /url: /
+        - img "Transcorp Hotels" [ref=e111]
+        - generic [ref=e113]: RECREATION
+      - generic [ref=e114]: © 2026 Transcorp Hotels Plc
+      - link "Help centre" [ref=e115] [cursor=pointer]:
+        - /url: /messages
+      - link "Terms" [ref=e116] [cursor=pointer]:
+        - /url: /terms
+  - button "Open Next.js Dev Tools" [ref=e122] [cursor=pointer]

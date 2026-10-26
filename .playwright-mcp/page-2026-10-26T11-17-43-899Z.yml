@@ -1,0 +1,222 @@
+- generic [active] [ref=f33e1]:
+  - generic [ref=f33e2]:
+    - navigation "Staff" [ref=f33e3]:
+      - generic [ref=f33e6]:
+        - generic [ref=f33e7]: Recreation
+        - generic [ref=f33e8]: Staff portal
+      - generic [ref=f33e9]:
+        - generic [ref=f33e10]: Day to day
+        - link "Dashboard" [ref=f33e11] [cursor=pointer]:
+          - /url: /staff
+        - link "Calendar" [ref=f33e12] [cursor=pointer]:
+          - /url: /staff/calendar
+        - link "New booking" [ref=f33e13] [cursor=pointer]:
+          - /url: /staff/bookings/new
+        - link "Verify a booking" [ref=f33e14] [cursor=pointer]:
+          - /url: /staff/verify
+        - link "Payments" [ref=f33e15] [cursor=pointer]:
+          - /url: /staff/payments
+        - link "Refunds" [ref=f33e16] [cursor=pointer]:
+          - /url: /staff/refunds
+      - generic [ref=f33e17]:
+        - generic [ref=f33e18]: Members
+        - link "Applications" [ref=f33e19] [cursor=pointer]:
+          - /url: /staff/applications
+        - link "Member register" [ref=f33e20] [cursor=pointer]:
+          - /url: /staff/members
+        - link "Guest checks" [ref=f33e21] [cursor=pointer]:
+          - /url: /staff/guest-checks
+      - generic [ref=f33e22]:
+        - generic [ref=f33e23]: Setup
+        - link "Facilities and rentals" [ref=f33e24] [cursor=pointer]:
+          - /url: /staff/facilities
+        - link "Rates and rules" [ref=f33e25] [cursor=pointer]:
+          - /url: /staff/rates
+        - link "Users and roles" [ref=f33e26] [cursor=pointer]:
+          - /url: /staff/users
+        - link "Notifications" [ref=f33e27] [cursor=pointer]:
+          - /url: /staff/notifications
+        - link "Terms and conditions" [ref=f33e28] [cursor=pointer]:
+          - /url: /staff/terms
+        - link "Integrations" [ref=f33e29] [cursor=pointer]:
+          - /url: /staff/integrations
+      - generic [ref=f33e30]:
+        - generic [ref=f33e31]: Oversight
+        - link "Exceptions" [ref=f33e32] [cursor=pointer]:
+          - /url: /staff/exceptions
+        - link "Reports" [ref=f33e33] [cursor=pointer]:
+          - /url: /staff/reports
+        - link "Audit trail" [ref=f33e34] [cursor=pointer]:
+          - /url: /staff/audit
+      - generic [ref=f33e35]:
+        - text: Test Manager
+        - generic [ref=f33e36]: Recreation Manager
+        - generic [ref=f33e37]:
+          - link "Change password" [ref=f33e38] [cursor=pointer]:
+            - /url: /staff/password
+          - button "Sign out" [ref=f33e40]
+    - main [ref=f33e41]:
+      - heading "Membership applications" [level=1] [ref=f33e45]
+      - navigation "Filter applications" [ref=f33e46]:
+        - link "To review (0)" [ref=f33e47] [cursor=pointer]:
+          - /url: /staff/applications?tab=review
+        - link "Profile pending (0)" [ref=f33e48] [cursor=pointer]:
+          - /url: /staff/applications?tab=pending
+        - link "Card to print (1)" [ref=f33e49] [cursor=pointer]:
+          - /url: /staff/applications?tab=print
+        - link "Approved (1)" [ref=f33e50] [cursor=pointer]:
+          - /url: /staff/applications?tab=approved
+        - link "Rejected (0)" [ref=f33e51] [cursor=pointer]:
+          - /url: /staff/applications?tab=rejected
+        - link "All (1)" [ref=f33e52] [cursor=pointer]:
+          - /url: /staff/applications?tab=all
+      - generic [ref=f33e53]:
+        - link "Chika Test 26 Oct 2026, 12:15 Individual, annual · MA-2026-0001 Approved" [ref=f33e55] [cursor=pointer]:
+          - /url: /staff/applications?tab=print&id=7ff36b28-3805-4452-848a-7ee099add4ff
+          - generic [ref=f33e56]:
+            - generic [ref=f33e57]: Chika Test
+            - generic [ref=f33e58]: 26 Oct 2026, 12:15
+          - generic [ref=f33e59]: Individual, annual · MA-2026-0001
+          - generic [ref=f33e60]: Approved
+        - generic [ref=f33e62]:
+          - generic [ref=f33e63]:
+            - generic [ref=f33e64]:
+              - generic [ref=f33e65]: Application reference
+              - heading "MA-2026-0001" [level=2] [ref=f33e66]
+            - generic [ref=f33e67]: Approved
+          - generic [ref=f33e68]:
+            - generic [ref=f33e69]:
+              - img "Hiltonia Club membership card for Chika Test, IND - 12 MONTHS, number 5723" [ref=f33e71]:
+                - generic [ref=f33e77]:
+                  - img [aria-hidden] [ref=f33e78]:
+                    - generic [ref=f33e80]: HILTONIA
+                    - generic [ref=f33e81]: FITNESS • CLUB
+                  - generic [ref=f33e84]:
+                    - generic [ref=f33e85]: HILTONIA CLUB
+                    - generic [ref=f33e86]: Transcorp Hilton Abuja
+                - generic [ref=f33e88]:
+                  - generic [ref=f33e89]: Chika Test
+                  - generic [ref=f33e90]: IND - 12 MONTHS
+                  - generic [ref=f33e91]: "Expires on: 25/10/2027"
+                - generic [ref=f33e116]: "5723"
+              - generic [ref=f33e118]: Card as printed.
+            - generic [ref=f33e119]:
+              - generic [ref=f33e120]:
+                - generic [ref=f33e121]:
+                  - generic [ref=f33e122]: Name
+                  - generic [ref=f33e123]: Chika Test
+                - generic [ref=f33e124]:
+                  - generic [ref=f33e125]: Phone
+                  - generic [ref=f33e126]: "08031112222"
+                - generic [ref=f33e127]:
+                  - generic [ref=f33e128]: Email
+                  - generic [ref=f33e129]: chika@test.local
+                - generic [ref=f33e130]:
+                  - generic [ref=f33e131]: Plan
+                  - generic [ref=f33e132]: Individual, annual
+                - generic [ref=f33e133]:
+                  - generic [ref=f33e134]: Paid
+                  - generic [ref=f33e135]: ₦902,000, online
+                - generic [ref=f33e136]:
+                  - generic [ref=f33e137]: Payment reference
+                  - generic [ref=f33e138]: TEST-66CE6B6B625E
+                - generic [ref=f33e139]:
+                  - generic [ref=f33e140]: Paid on
+                  - generic [ref=f33e141]: 26 Oct 2026, 12:15
+                - generic [ref=f33e142]:
+                  - generic [ref=f33e143]: Profile completed
+                  - generic [ref=f33e144]: 26 Oct 2026, 12:15
+                - generic [ref=f33e145]:
+                  - generic [ref=f33e146]: GymQ number
+                  - generic [ref=f33e147]: "5723"
+                - generic [ref=f33e148]:
+                  - generic [ref=f33e149]: Valid
+                  - generic [ref=f33e150]: 26 Oct 2026 to 25 Oct 2027
+                - generic [ref=f33e151]:
+                  - generic [ref=f33e152]: Card
+                  - generic [ref=f33e153]: Not issued yet
+              - paragraph [ref=f33e154]: "Paid in test mode: no real money moved."
+          - generic [ref=f33e155]:
+            - generic [ref=f33e156]:
+              - heading "Details" [level=3] [ref=f33e157]
+              - generic [ref=f33e159]:
+                - generic [ref=f33e160]: Office address
+                - generic [ref=f33e161]: 12 Test Close, Abuja
+            - generic [ref=f33e162]:
+              - heading "Hotel facilities" [level=3] [ref=f33e163]
+              - generic [ref=f33e165]:
+                - generic [ref=f33e166]: Uses other hotel facilities
+                - generic [ref=f33e167]: "No"
+            - generic [ref=f33e168]:
+              - heading "Health history" [level=3] [ref=f33e169]
+              - generic [ref=f33e170]:
+                - generic [ref=f33e171]:
+                  - generic [ref=f33e172]: Last medical check-up
+                  - generic [ref=f33e173]: Not given
+                - generic [ref=f33e174]:
+                  - generic [ref=f33e175]: Operations or hospital stays
+                  - generic [ref=f33e176]: None
+                - generic [ref=f33e177]:
+                  - generic [ref=f33e178]: Limits
+                  - generic [ref=f33e179]: Back
+                - generic [ref=f33e180]:
+                  - generic [ref=f33e181]: Medicines
+                  - generic [ref=f33e182]: None
+                - generic [ref=f33e183]:
+                  - generic [ref=f33e184]: Allergies
+                  - generic [ref=f33e185]: None
+                - generic [ref=f33e186]:
+                  - generic [ref=f33e187]: Smokes
+                  - generic [ref=f33e188]: "No"
+                - generic [ref=f33e189]:
+                  - generic [ref=f33e190]: Alcohol
+                  - generic [ref=f33e191]: Rarely
+                - generic [ref=f33e192]:
+                  - generic [ref=f33e193]: Regular exercise
+                  - generic [ref=f33e194]: Not given
+                - generic [ref=f33e195]:
+                  - generic [ref=f33e196]: Doctor
+                  - generic [ref=f33e197]: Not given
+            - generic [ref=f33e198]:
+              - heading "Emergency contact" [level=3] [ref=f33e199]
+              - generic [ref=f33e200]:
+                - generic [ref=f33e201]:
+                  - generic [ref=f33e202]: Name
+                  - generic [ref=f33e203]: Ada Test (Sister)
+                - generic [ref=f33e204]:
+                  - generic [ref=f33e205]: Phone
+                  - generic [ref=f33e206]: 0803 555 0000
+                - generic [ref=f33e207]:
+                  - generic [ref=f33e208]: Address
+                  - generic [ref=f33e209]: Not given
+            - generic [ref=f33e210]:
+              - heading "Referee" [level=3] [ref=f33e211]
+              - generic [ref=f33e212]:
+                - generic [ref=f33e213]:
+                  - generic [ref=f33e214]: Name
+                  - generic [ref=f33e215]: Dr Bello Test
+                - generic [ref=f33e216]:
+                  - generic [ref=f33e217]: Office address
+                  - generic [ref=f33e218]: Wuse 2, Abuja
+                - generic [ref=f33e219]:
+                  - generic [ref=f33e220]: Phone
+                  - generic [ref=f33e221]: 0805 000 1111
+                - generic [ref=f33e222]:
+                  - generic [ref=f33e223]: Email
+                  - generic [ref=f33e224]: Not given
+            - generic [ref=f33e225]:
+              - heading "Declaration" [level=3] [ref=f33e226]
+              - generic [ref=f33e227]:
+                - generic [ref=f33e228]:
+                  - generic [ref=f33e229]: All statements accepted
+                  - generic [ref=f33e230]: "Yes"
+                - generic [ref=f33e231]:
+                  - generic [ref=f33e232]: Signed as
+                  - generic [ref=f33e233]: Chika Test
+                - generic [ref=f33e234]:
+                  - generic [ref=f33e235]: Signed on
+                  - generic [ref=f33e236]: 26 Oct 2026, 12:15
+          - generic [ref=f33e238]:
+            - button "Mark physical card as issued" [ref=f33e239]
+            - generic [ref=f33e240]: Do this when the member collects their card.
+  - alert [ref=f33e241]

@@ -1,0 +1,51 @@
+- generic [active] [ref=f34e1]:
+  - generic [ref=f34e2]:
+    - banner [ref=f34e3]:
+      - link "Transcorp Hotels Recreation home" [ref=f34e4] [cursor=pointer]:
+        - /url: /
+        - img "Transcorp Hotels" [ref=f34e5]
+        - generic [ref=f34e7]: RECREATION
+      - navigation "Main" [ref=f34e8]:
+        - link "My bookings" [ref=f34e9] [cursor=pointer]:
+          - /url: /bookings
+        - link "Messages" [ref=f34e10] [cursor=pointer]:
+          - /url: /messages
+        - link "Membership" [ref=f34e11] [cursor=pointer]:
+          - /url: /membership
+        - link "Terms" [ref=f34e12] [cursor=pointer]:
+          - /url: /terms
+      - link "Book a facility" [ref=f34e13] [cursor=pointer]:
+        - /url: /?book=1
+        - text: Book a facility
+        - generic [aria-hidden] [ref=f34e14]: →
+    - generic [ref=f34e16]:
+      - banner [ref=f34e17]:
+        - link "Back" [ref=f34e18] [cursor=pointer]:
+          - /url: /membership
+        - heading "Member sign in" [level=1] [ref=f34e22]
+      - generic [ref=f34e23]:
+        - paragraph [ref=f34e24]: Sign in with the email you paid with and the password you chose when you completed your profile.
+        - generic [ref=f34e25]:
+          - generic [ref=f34e26]:
+            - generic [ref=f34e27]: Email
+            - textbox "Email" [ref=f34e28]
+          - generic [ref=f34e29]:
+            - generic [ref=f34e30]: Password
+            - textbox "Password" [ref=f34e31]
+          - button "Sign in" [ref=f34e32]
+        - paragraph [ref=f34e33]:
+          - text: Not a member yet?
+          - link "See membership rates" [ref=f34e34] [cursor=pointer]:
+            - /url: /membership
+          - text: . Forgot your password? Ask the Recreation desk.
+    - contentinfo [ref=f34e35]:
+      - link "Transcorp Hotels Recreation home" [ref=f34e37] [cursor=pointer]:
+        - /url: /
+        - img "Transcorp Hotels" [ref=f34e38]
+        - generic [ref=f34e40]: RECREATION
+      - generic [ref=f34e41]: © 2026 Transcorp Hotels Plc
+      - link "Help centre" [ref=f34e42] [cursor=pointer]:
+        - /url: /messages
+      - link "Terms" [ref=f34e43] [cursor=pointer]:
+        - /url: /terms
+  - alert [ref=f34e44]

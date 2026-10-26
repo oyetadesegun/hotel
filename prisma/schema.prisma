@@ -1,0 +1,394 @@
+// Recreation Facilities Booking System — database schema.
+//
+// This file is the source of truth for tables and columns. Rules Prisma cannot
+// express (check constraints, the no-double-booking exclusion constraint, the
+// append-only audit trigger, row level security, the link to auth.users) live as
+// hand-written SQL at the end of the migration that creates them.
+//
+// Money is always stored in kobo as BigInt.
+// Change this file, then run `npm run db:migrate -- --name <what-changed>`.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ---------- Setup data (admin editable) ----------
+
+model Facility {
+  id                String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  slug              String   @unique
+  name              String
+  sessionMinutes    Int      @default(60) @map("session_minutes") // 30, 60, 90 or 120
+  opensAt           DateTime @default(dbgenerated("'07:00:00'::time without time zone")) @map("opens_at") @db.Time(6)
+  closesAt          DateTime @default(dbgenerated("'24:00:00'::time without time zone")) @map("closes_at") @db.Time(6)
+  maxSessionsPerDay Int      @default(2) @map("max_sessions_per_day")
+  bookAheadDays     Int      @default(7) @map("book_ahead_days")
+  walkInRateKobo    BigInt?  @map("walk_in_rate_kobo") // null until tariffs are confirmed
+  active            Boolean  @default(true)
+  createdAt         DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  rentalItems RentalItem[]
+  bookings    Booking[]
+
+  @@map("facilities")
+}
+
+model RentalItem {
+  id              String  @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  facilityId      String  @map("facility_id") @db.Uuid
+  name            String
+  ratePerHourKobo BigInt  @map("rate_per_hour_kobo")
+  active          Boolean @default(true)
+
+  facility       Facility        @relation(fields: [facilityId], references: [id])
+  bookingRentals BookingRental[]
+
+  @@unique([facilityId, name])
+  @@map("rental_items")
+}
+
+enum MembershipDuration {
+  m1     @map("1m")
+  m3     @map("3m")
+  m6     @map("6m")
+  annual
+
+  @@map("membership_duration")
+}
+
+model MembershipRate {
+  id            String             @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  category      String // Individual, Couple, Family, Extra child, Corporate
+  duration      MembershipDuration
+  priceKobo     BigInt?            @map("price_kobo") // null = agreed per company
+  effectiveFrom DateTime           @map("effective_from") @db.Date
+
+  @@unique([category, duration, effectiveFrom])
+  @@map("membership_rates")
+}
+
+model Setting {
+  key       String   @id // e.g. hold_unpaid_hours, application_form_fee_kobo
+  value     Json
+  updatedBy String?  @map("updated_by") @db.Uuid
+  updatedAt DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  updater StaffUser? @relation(fields: [updatedBy], references: [id])
+
+  @@map("settings")
+}
+
+model TermsVersion {
+  id           String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  version      String    @unique
+  bodyMarkdown String    @map("body_markdown")
+  publishedAt  DateTime? @map("published_at") @db.Timestamptz(6)
+  createdAt    DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  bookings Booking[]
+
+  @@map("terms_versions")
+}
+
+// ---------- Sign in ----------
+
+enum AccountKind {
+  staff
+  member
+
+  @@map("account_kind")
+}
+
+/// A sign-in: email and password, for staff and for members.
+/// Passwords are scrypt hashes (src/lib/auth/password.ts), never stored in plain text.
+model Account {
+  id                 String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email              String      @unique // always stored lower case
+  passwordHash       String?     @map("password_hash") // null until a member sets one from their profile link
+  kind               AccountKind
+  customerId         String?     @unique @map("customer_id") @db.Uuid // members only
+  mustChangePassword Boolean     @default(false) @map("must_change_password") // staff given a temporary password
+  lastSignInAt       DateTime?   @map("last_sign_in_at") @db.Timestamptz(6)
+  createdAt          DateTime    @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  staff    StaffUser?
+  customer Customer?      @relation(fields: [customerId], references: [id])
+  sessions Session[]
+  tokens   AccountToken[]
+
+  @@map("accounts")
+}
+
+/// A signed-in browser. `id` is the SHA-256 of the cookie value, so a database leak gives no usable sessions.
+model Session {
+  id        String   @id
+  accountId String   @map("account_id") @db.Uuid
+  expiresAt DateTime @map("expires_at") @db.Timestamptz(6)
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  account Account @relation(fields: [accountId], references: [id], onDelete: Cascade)
+
+  @@index([accountId])
+  @@map("sessions")
+}
+
+/// One-time links sent by email, e.g. "complete your membership profile". `id` is the SHA-256 of the token.
+model AccountToken {
+  id           String    @id
+  accountId    String    @map("account_id") @db.Uuid
+  purpose      String // complete_profile
+  membershipId String?   @map("membership_id") @db.Uuid
+  expiresAt    DateTime  @map("expires_at") @db.Timestamptz(6)
+  usedAt       DateTime? @map("used_at") @db.Timestamptz(6)
+  createdAt    DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  account Account @relation(fields: [accountId], references: [id], onDelete: Cascade)
+
+  @@index([accountId])
+  @@map("account_tokens")
+}
+
+// ---------- People ----------
+
+/// admin: everything, including setup, users, payments and reports.
+/// staff: desk work (bookings, verifying, member approvals).
+enum StaffRole {
+  admin
+  staff
+
+  @@map("staff_role")
+}
+
+/// One row per staff member. `id` is the id of their sign-in Account.
+model StaffUser {
+  id        String    @id @db.Uuid
+  fullName  String    @map("full_name")
+  role      StaffRole
+  active    Boolean   @default(true)
+  createdAt DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  account Account @relation(fields: [id], references: [id], onDelete: Cascade)
+
+  bookingsCreated  Booking[] @relation("BookingCreator")
+  guestsChecked    Booking[] @relation("BookingGuestChecker")
+  paymentsRecorded Payment[]
+  refundsDecided   Refund[]
+  settingsUpdated  Setting[]
+
+  @@map("staff_users")
+}
+
+enum CustomerKind {
+  member
+  resident_guest
+  walk_in
+
+  @@map("customer_kind")
+}
+
+model Customer {
+  id         String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  kind       CustomerKind
+  fullName   String       @map("full_name")
+  phone      String?
+  email      String?
+  memberId   String?      @map("member_id") @db.Uuid // set when kind = member
+  roomNumber String?      @map("room_number") // resident guests
+  createdAt  DateTime     @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  account     Account?
+  memberships Membership[]
+  bookings    Booking[]
+
+  @@index([phone])
+  @@index([email])
+  @@map("customers")
+}
+
+/// profile_pending: paid online, application form not filled in yet (we email them a link).
+/// paid_waiting_review: form done, Recreation Manager to check.
+enum ApplicationStatus {
+  profile_pending
+  paid_waiting_review
+  approved
+  rejected
+
+  @@map("application_status")
+}
+
+model Membership {
+  id                 String             @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  applicationRef     String             @unique @map("application_ref") // MA-2026-0418
+  customerId         String             @map("customer_id") @db.Uuid
+  category           String
+  duration           MembershipDuration
+  gymqNumber         String?            @unique @map("gymq_number") // typed in from GymQ. This system NEVER generates one.
+  status             ApplicationStatus  @default(paid_waiting_review)
+  photoPath          String?            @map("photo_path")
+  /// Answers from the online application form (details, facilities, health, referee, declaration).
+  /// Kept as JSON while the form is still changing. Health answers: Recreation Manager only.
+  profile            Json?
+  profileCompletedAt DateTime?          @map("profile_completed_at") @db.Timestamptz(6)
+  cardIssuedAt       DateTime?          @map("card_issued_at") @db.Timestamptz(6)
+  startsOn           DateTime?          @map("starts_on") @db.Date
+  endsOn             DateTime?          @map("ends_on") @db.Date
+  rejectionReason    String?            @map("rejection_reason")
+  createdAt          DateTime           @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  customer Customer  @relation(fields: [customerId], references: [id])
+  payments Payment[]
+
+  @@index([customerId])
+  @@index([status])
+  @@map("memberships")
+}
+
+// ---------- Bookings ----------
+
+enum BookingStatus {
+  reserved // unpaid hold, expires
+  booked // paid, or free for members and resident guests
+  used
+  cancelled
+  expired
+  no_show
+
+  @@map("booking_status")
+}
+
+/// Two live bookings (reserved, booked, used) can never overlap on the same facility.
+/// The database enforces this with an exclusion constraint on [startsAt, endsAt),
+/// so a race between two customers cannot create a double booking.
+model Booking {
+  id             String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  code           String        @unique // BK-7Q4M-2931
+  facilityId     String        @map("facility_id") @db.Uuid
+  customerId     String        @map("customer_id") @db.Uuid
+  startsAt       DateTime      @map("starts_at") @db.Timestamptz(6)
+  endsAt         DateTime      @map("ends_at") @db.Timestamptz(6)
+  status         BookingStatus
+  priority       Boolean       @default(false) // recurring booking by an authorised administrator
+  holdExpiresAt  DateTime?     @map("hold_expires_at") @db.Timestamptz(6)
+  termsVersion   String?       @map("terms_version")
+  createdBy      String?       @map("created_by") @db.Uuid // staff user, null when booked online
+  createdAt      DateTime      @default(now()) @map("created_at") @db.Timestamptz(6)
+  /// Resident guests who book online are checked at reception until the hotel system (OPERA) is connected.
+  guestCheckedAt DateTime?     @map("guest_checked_at") @db.Timestamptz(6)
+  guestCheckedBy String?       @map("guest_checked_by") @db.Uuid
+
+  facility Facility        @relation(fields: [facilityId], references: [id])
+  customer Customer        @relation(fields: [customerId], references: [id])
+  terms    TermsVersion?   @relation(fields: [termsVersion], references: [version])
+  creator  StaffUser?      @relation("BookingCreator", fields: [createdBy], references: [id])
+  checker  StaffUser?      @relation("BookingGuestChecker", fields: [guestCheckedBy], references: [id])
+  rentals  BookingRental[]
+  payments Payment[]
+
+  @@index([facilityId, startsAt])
+  @@index([customerId, startsAt])
+  @@index([status, holdExpiresAt])
+  @@map("bookings")
+}
+
+model BookingRental {
+  bookingId       String @map("booking_id") @db.Uuid
+  rentalItemId    String @map("rental_item_id") @db.Uuid
+  quantity        Int    @default(1)
+  ratePerHourKobo BigInt @map("rate_per_hour_kobo") // price at the time of booking
+
+  booking    Booking    @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+  rentalItem RentalItem @relation(fields: [rentalItemId], references: [id])
+
+  @@id([bookingId, rentalItemId])
+  @@index([rentalItemId])
+  @@map("booking_rentals")
+}
+
+enum PaymentMethod {
+  online
+  pos
+  cash
+  transfer
+
+  @@map("payment_method")
+}
+
+enum PaymentStatus {
+  initiated
+  succeeded
+  failed
+  needs_reconciling
+  refunded
+
+  @@map("payment_status")
+}
+
+/// A payment is for exactly one booking or one membership (enforced in SQL).
+model Payment {
+  id           String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  bookingId    String?       @map("booking_id") @db.Uuid
+  membershipId String?       @map("membership_id") @db.Uuid
+  method       PaymentMethod
+  status       PaymentStatus
+  amountKobo   BigInt        @map("amount_kobo")
+  gatewayRef   String?       @unique @map("gateway_ref") // unique, so repeated webhooks never create a second payment
+  receiptRef   String?       @map("receipt_ref")
+  recordedBy   String?       @map("recorded_by") @db.Uuid
+  createdAt    DateTime      @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  booking    Booking?    @relation(fields: [bookingId], references: [id])
+  membership Membership? @relation(fields: [membershipId], references: [id])
+  recorder   StaffUser?  @relation(fields: [recordedBy], references: [id])
+  refunds    Refund[]
+
+  @@index([bookingId])
+  @@index([membershipId])
+  @@index([status, createdAt])
+  @@map("payments")
+}
+
+enum RefundStatus {
+  to_approve
+  approved
+  paid_out
+  declined
+
+  @@map("refund_status")
+}
+
+model Refund {
+  id         String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  paymentId  String       @map("payment_id") @db.Uuid
+  amountKobo BigInt       @map("amount_kobo")
+  reason     String
+  status     RefundStatus @default(to_approve)
+  decidedBy  String?      @map("decided_by") @db.Uuid
+  createdAt  DateTime     @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  payment Payment    @relation(fields: [paymentId], references: [id])
+  decider StaffUser? @relation(fields: [decidedBy], references: [id])
+
+  @@index([paymentId])
+  @@index([status])
+  @@map("refunds")
+}
+
+// ---------- Audit trail (append only) ----------
+
+/// Entries can be added but never changed or removed (enforced by a trigger).
+model AuditLog {
+  id      BigInt   @id @default(autoincrement())
+  at      DateTime @default(now()) @db.Timestamptz(6)
+  actor   String // staff user id or 'system'
+  action  String
+  item    String?
+  details Json?
+
+  @@index([at])
+  @@map("audit_log")
+}

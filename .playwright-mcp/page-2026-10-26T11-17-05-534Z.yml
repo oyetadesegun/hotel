@@ -1,0 +1,21 @@
+- generic [active] [ref=f31e1]:
+  - alert [ref=f31e2]: Change your password | Recreation Booking
+  - generic [ref=f31e25]:
+    - generic [ref=f31e28]:
+      - text: Recreation
+      - generic [ref=f31e29]: Staff portal, Transcorp Hilton Abuja
+    - heading "Change your password" [level=1] [ref=f31e31]
+    - generic [ref=f31e32]:
+      - generic [ref=f31e33]:
+        - generic [ref=f31e34]: Current password
+        - textbox "Current password" [ref=f31e35]
+      - generic [ref=f31e36]:
+        - generic [ref=f31e37]: New password
+        - textbox "New password" [ref=f31e38]
+        - generic [ref=f31e39]: At least 10 characters, with letters and a number.
+      - generic [ref=f31e40]:
+        - generic [ref=f31e41]: Confirm new password
+        - textbox "Confirm new password" [ref=f31e42]
+      - button "Save password" [ref=f31e43]
+    - link "Back to the portal" [ref=f31e44] [cursor=pointer]:
+      - /url: /staff

@@ -1,0 +1,162 @@
+- generic [active] [ref=f35e1]:
+  - generic [ref=f35e20]:
+    - navigation "Staff" [ref=f35e21]:
+      - generic [ref=f35e24]:
+        - generic [ref=f35e25]: Recreation
+        - generic [ref=f35e26]: Staff portal
+      - generic [ref=f35e27]:
+        - generic [ref=f35e28]: Day to day
+        - link "Dashboard" [ref=f35e29] [cursor=pointer]:
+          - /url: /staff
+        - link "Calendar" [ref=f35e30] [cursor=pointer]:
+          - /url: /staff/calendar
+        - link "New booking" [ref=f35e31] [cursor=pointer]:
+          - /url: /staff/bookings/new
+        - link "Verify a booking" [ref=f35e32] [cursor=pointer]:
+          - /url: /staff/verify
+        - link "Payments" [ref=f35e33] [cursor=pointer]:
+          - /url: /staff/payments
+        - link "Refunds" [ref=f35e34] [cursor=pointer]:
+          - /url: /staff/refunds
+      - generic [ref=f35e35]:
+        - generic [ref=f35e36]: Members
+        - link "Applications" [ref=f35e37] [cursor=pointer]:
+          - /url: /staff/applications
+        - link "Member register" [ref=f35e38] [cursor=pointer]:
+          - /url: /staff/members
+        - link "Guest checks" [ref=f35e39] [cursor=pointer]:
+          - /url: /staff/guest-checks
+      - generic [ref=f35e40]:
+        - generic [ref=f35e41]: Setup
+        - link "Facilities and rentals" [ref=f35e42] [cursor=pointer]:
+          - /url: /staff/facilities
+        - link "Rates and rules" [ref=f35e43] [cursor=pointer]:
+          - /url: /staff/rates
+        - link "Users and roles" [ref=f35e44] [cursor=pointer]:
+          - /url: /staff/users
+        - link "Notifications" [ref=f35e45] [cursor=pointer]:
+          - /url: /staff/notifications
+        - link "Terms and conditions" [ref=f35e46] [cursor=pointer]:
+          - /url: /staff/terms
+        - link "Integrations" [ref=f35e47] [cursor=pointer]:
+          - /url: /staff/integrations
+      - generic [ref=f35e48]:
+        - generic [ref=f35e49]: Oversight
+        - link "Exceptions" [ref=f35e50] [cursor=pointer]:
+          - /url: /staff/exceptions
+        - link "Reports" [ref=f35e51] [cursor=pointer]:
+          - /url: /staff/reports
+        - link "Audit trail" [ref=f35e52] [cursor=pointer]:
+          - /url: /staff/audit
+      - generic [ref=f35e53]:
+        - text: Test Manager
+        - generic [ref=f35e54]: Recreation Manager
+        - generic [ref=f35e55]:
+          - link "Change password" [ref=f35e56] [cursor=pointer]:
+            - /url: /staff/password
+          - button "Sign out" [ref=f35e58]
+    - main [ref=f35e59]:
+      - generic [ref=f35e60]:
+        - generic [ref=f35e61]:
+          - generic [ref=f35e62]:
+            - heading "Today" [level=1] [ref=f35e63]
+            - generic [ref=f35e64]: Sample data
+          - paragraph [ref=f35e65]: Thursday 22 October 2026
+        - generic [ref=f35e66]:
+          - generic [ref=f35e67]: "Live: updates without refresh"
+          - link "New booking" [ref=f35e68] [cursor=pointer]:
+            - /url: /staff/bookings/new
+      - generic [ref=f35e69]:
+        - generic [ref=f35e70]:
+          - generic [ref=f35e71]: Awaiting payment
+          - generic [ref=f35e72]: "6"
+          - generic [ref=f35e73]: Next one expires in 14 min
+        - generic [ref=f35e74]:
+          - generic [ref=f35e75]: Confirmed today
+          - generic [ref=f35e76]: "41"
+          - generic [ref=f35e77]: Online 33, staff 8
+        - generic [ref=f35e78]:
+          - generic [ref=f35e79]: Needs attention
+          - generic [ref=f35e80]: "4"
+          - generic [ref=f35e81]: Payments, applications, expiries
+        - generic [ref=f35e82]:
+          - generic [ref=f35e83]: Utilisation today
+          - generic [ref=f35e84]: 68%
+          - generic [ref=f35e85]: Of open slots, 07:00 to midnight
+      - generic [ref=f35e86]:
+        - generic [ref=f35e87]:
+          - generic [ref=f35e88]:
+            - heading "Utilisation by facility" [level=2] [ref=f35e89]
+            - generic [ref=f35e90]:
+              - generic [ref=f35e91]:
+                - generic [ref=f35e92]: Padel
+                - generic [ref=f35e95]: 82%
+              - generic [ref=f35e96]:
+                - generic [ref=f35e97]: Tennis
+                - generic [ref=f35e100]: 71%
+              - generic [ref=f35e101]:
+                - generic [ref=f35e102]: Squash
+                - generic [ref=f35e105]: 64%
+              - generic [ref=f35e106]:
+                - generic [ref=f35e107]: Badminton
+                - generic [ref=f35e110]: 55%
+          - generic [ref=f35e111]:
+            - heading "Next sessions" [level=2] [ref=f35e112]
+            - table [ref=f35e113]:
+              - rowgroup [ref=f35e114]:
+                - row [ref=f35e115]:
+                  - columnheader "Time" [ref=f35e116]
+                  - columnheader "Facility" [ref=f35e117]
+                  - columnheader "Customer" [ref=f35e118]
+                  - columnheader "Type" [ref=f35e119]
+                  - columnheader "Status" [ref=f35e120]
+              - rowgroup [ref=f35e121]:
+                - row [ref=f35e122]:
+                  - cell "18:00" [ref=f35e123]
+                  - cell "Padel" [ref=f35e124]
+                  - cell "T. Bakare" [ref=f35e125]
+                  - cell "Walk-in" [ref=f35e126]
+                  - cell "Booked and paid" [ref=f35e127]
+                - row [ref=f35e129]:
+                  - cell "18:00" [ref=f35e130]
+                  - cell "Tennis" [ref=f35e131]
+                  - cell "Room 1204, Adeyemi" [ref=f35e132]
+                  - cell "Resident guest" [ref=f35e133]
+                  - cell "Booked, no charge" [ref=f35e134]
+                - row [ref=f35e136]:
+                  - cell "19:00" [ref=f35e137]
+                  - cell "Padel" [ref=f35e138]
+                  - cell "Reserved online" [ref=f35e139]
+                  - cell "Walk-in" [ref=f35e140]
+                  - cell "Reserved, 14 min left" [ref=f35e141]
+                - row [ref=f35e143]:
+                  - cell "19:00" [ref=f35e144]
+                  - cell "Squash" [ref=f35e145]
+                  - cell "Member" [ref=f35e146]
+                  - cell "Member" [ref=f35e147]
+                  - cell "Booked, no charge" [ref=f35e148]
+                - row [ref=f35e150]:
+                  - cell "20:00" [ref=f35e151]
+                  - cell "Tennis" [ref=f35e152]
+                  - cell "Long-stay guest" [ref=f35e153]
+                  - cell "Priority, recurring" [ref=f35e154]
+                  - cell "Booked, no charge" [ref=f35e155]
+        - generic [ref=f35e158]:
+          - heading "Needs attention" [level=2] [ref=f35e159]
+          - generic [ref=f35e160]:
+            - text: Payment taken, booking not confirmedBK-7P12, Tennis 17:00
+            - link "Reconcile" [ref=f35e161] [cursor=pointer]:
+              - /url: /staff/reconcile
+          - generic [ref=f35e162]:
+            - text: POS payment to recordSquash 20:00, front desk
+            - link "Record payment" [ref=f35e163] [cursor=pointer]:
+              - /url: /staff/payments
+          - generic [ref=f35e164]:
+            - text: 2 membership applicationsPaid, waiting for review
+            - link "Review" [ref=f35e165] [cursor=pointer]:
+              - /url: /staff/applications
+          - generic [ref=f35e166]:
+            - text: Reservation expiringPadel 19:00, 14 min left
+            - link "View in calendar" [ref=f35e167] [cursor=pointer]:
+              - /url: /staff/calendar
+  - alert [ref=f35e19]: Today

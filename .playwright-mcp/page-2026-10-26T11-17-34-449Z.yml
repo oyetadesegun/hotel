@@ -1,0 +1,74 @@
+- generic [active] [ref=f32e1]:
+  - generic [ref=f32e2]:
+    - navigation "Staff" [ref=f32e3]:
+      - generic [ref=f32e6]:
+        - generic [ref=f32e7]: Recreation
+        - generic [ref=f32e8]: Staff portal
+      - generic [ref=f32e9]:
+        - generic [ref=f32e10]: Day to day
+        - link "Dashboard" [ref=f32e11] [cursor=pointer]:
+          - /url: /staff
+        - link "Calendar" [ref=f32e12] [cursor=pointer]:
+          - /url: /staff/calendar
+        - link "New booking" [ref=f32e13] [cursor=pointer]:
+          - /url: /staff/bookings/new
+        - link "Verify a booking" [ref=f32e14] [cursor=pointer]:
+          - /url: /staff/verify
+        - link "Payments" [ref=f32e15] [cursor=pointer]:
+          - /url: /staff/payments
+        - link "Refunds" [ref=f32e16] [cursor=pointer]:
+          - /url: /staff/refunds
+      - generic [ref=f32e17]:
+        - generic [ref=f32e18]: Members
+        - link "Applications" [ref=f32e19] [cursor=pointer]:
+          - /url: /staff/applications
+        - link "Member register" [ref=f32e20] [cursor=pointer]:
+          - /url: /staff/members
+        - link "Guest checks" [ref=f32e21] [cursor=pointer]:
+          - /url: /staff/guest-checks
+      - generic [ref=f32e22]:
+        - generic [ref=f32e23]: Setup
+        - link "Facilities and rentals" [ref=f32e24] [cursor=pointer]:
+          - /url: /staff/facilities
+        - link "Rates and rules" [ref=f32e25] [cursor=pointer]:
+          - /url: /staff/rates
+        - link "Users and roles" [ref=f32e26] [cursor=pointer]:
+          - /url: /staff/users
+        - link "Notifications" [ref=f32e27] [cursor=pointer]:
+          - /url: /staff/notifications
+        - link "Terms and conditions" [ref=f32e28] [cursor=pointer]:
+          - /url: /staff/terms
+        - link "Integrations" [ref=f32e29] [cursor=pointer]:
+          - /url: /staff/integrations
+      - generic [ref=f32e30]:
+        - generic [ref=f32e31]: Oversight
+        - link "Exceptions" [ref=f32e32] [cursor=pointer]:
+          - /url: /staff/exceptions
+        - link "Reports" [ref=f32e33] [cursor=pointer]:
+          - /url: /staff/reports
+        - link "Audit trail" [ref=f32e34] [cursor=pointer]:
+          - /url: /staff/audit
+      - generic [ref=f32e35]:
+        - text: Test Manager
+        - generic [ref=f32e36]: Recreation Manager
+        - generic [ref=f32e37]:
+          - link "Change password" [ref=f32e38] [cursor=pointer]:
+            - /url: /staff/password
+          - button "Sign out" [ref=f32e40]
+    - main [ref=f32e41]:
+      - heading "Membership applications" [level=1] [ref=f32e45]
+      - navigation "Filter applications" [ref=f32e46]:
+        - link "To review (0)" [ref=f32e278] [cursor=pointer]:
+          - /url: /staff/applications?tab=review
+        - link "Profile pending (0)" [ref=f32e48] [cursor=pointer]:
+          - /url: /staff/applications?tab=pending
+        - link "Card to print (1)" [ref=f32e279] [cursor=pointer]:
+          - /url: /staff/applications?tab=print
+        - link "Approved (1)" [ref=f32e280] [cursor=pointer]:
+          - /url: /staff/applications?tab=approved
+        - link "Rejected (0)" [ref=f32e51] [cursor=pointer]:
+          - /url: /staff/applications?tab=rejected
+        - link "All (1)" [ref=f32e52] [cursor=pointer]:
+          - /url: /staff/applications?tab=all
+      - generic [ref=f32e53]: No applications here yet.
+  - alert [ref=f32e277]

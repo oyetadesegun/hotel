@@ -1,0 +1,116 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - navigation "Staff" [ref=f5e3]:
+      - generic [ref=f5e6]:
+        - generic [ref=f5e7]: Recreation
+        - generic [ref=f5e8]: Staff portal
+      - generic [ref=f5e9]:
+        - link "Dashboard" [ref=f5e10] [cursor=pointer]:
+          - /url: /staff
+        - generic [ref=f5e16]:
+          - button "Bookings" [ref=f5e17]
+          - generic [ref=f5e23]:
+            - link "Calendar" [ref=f5e24] [cursor=pointer]:
+              - /url: /staff/calendar
+            - link "New booking" [ref=f5e25] [cursor=pointer]:
+              - /url: /staff/bookings/new
+            - link "Verify a booking" [ref=f5e26] [cursor=pointer]:
+              - /url: /staff/verify
+        - generic [ref=f5e27]:
+          - button "Payments" [ref=f5e28]
+          - generic [ref=f5e35]:
+            - link "Payments" [ref=f5e36] [cursor=pointer]:
+              - /url: /staff/payments
+            - link "Refunds" [ref=f5e37] [cursor=pointer]:
+              - /url: /staff/refunds
+        - generic [ref=f5e38]:
+          - button "Members" [expanded] [ref=f5e39]
+          - generic [ref=f5e50]:
+            - link "Applications" [ref=f5e51] [cursor=pointer]:
+              - /url: /staff/applications
+            - link "Member register" [ref=f5e52] [cursor=pointer]:
+              - /url: /staff/members
+            - link "Guest checks" [ref=f5e53] [cursor=pointer]:
+              - /url: /staff/guest-checks
+        - generic [ref=f5e54]:
+          - button "Facilities and pricing" [ref=f5e55]
+          - generic [ref=f5e63]:
+            - link "Facilities and rentals" [ref=f5e64] [cursor=pointer]:
+              - /url: /staff/facilities
+            - link "Rates and rules" [ref=f5e65] [cursor=pointer]:
+              - /url: /staff/rates
+            - link "Terms and conditions" [ref=f5e66] [cursor=pointer]:
+              - /url: /staff/terms
+        - generic [ref=f5e67]:
+          - button "System" [ref=f5e68]
+          - generic [ref=f5e75]:
+            - link "Users and roles" [ref=f5e76] [cursor=pointer]:
+              - /url: /staff/users
+            - link "Notifications" [ref=f5e77] [cursor=pointer]:
+              - /url: /staff/notifications
+            - link "Integrations" [ref=f5e78] [cursor=pointer]:
+              - /url: /staff/integrations
+        - generic [ref=f5e79]:
+          - button "Oversight" [ref=f5e80]
+          - generic [ref=f5e87]:
+            - link "Exceptions" [ref=f5e88] [cursor=pointer]:
+              - /url: /staff/exceptions
+            - link "Reports" [ref=f5e89] [cursor=pointer]:
+              - /url: /staff/reports
+            - link "Audit trail" [ref=f5e90] [cursor=pointer]:
+              - /url: /staff/audit
+      - generic [ref=f5e91]:
+        - text: Test Admin
+        - generic [ref=f5e92]: Admin
+        - generic [ref=f5e93]:
+          - link "Change password" [ref=f5e94] [cursor=pointer]:
+            - /url: /staff/password
+          - button "Sign out" [ref=f5e96]
+    - main [ref=f5e97]:
+      - generic [ref=f5e98]:
+        - generic [ref=f5e99]:
+          - heading "Member register" [level=1] [ref=f5e101]
+          - paragraph [ref=f5e102]: Approved members, people with a temporary card while they are reviewed, and people who still have to fill in their profile.
+        - button "Add a member" [ref=f5e104]
+      - generic [ref=f5e105]:
+        - generic [ref=f5e106]:
+          - textbox "Search" [ref=f5e107]:
+            - /placeholder: Search name, email, phone or membership number
+          - button "Search" [ref=f5e108]
+        - navigation "Filter members" [ref=f5e109]:
+          - link "All" [ref=f5e110] [cursor=pointer]:
+            - /url: /staff/members?show=all
+          - link "Active" [ref=f5e111] [cursor=pointer]:
+            - /url: /staff/members?show=active
+          - link "Expiring in 30 days" [ref=f5e112] [cursor=pointer]:
+            - /url: /staff/members?show=expiring
+          - link "Expired" [ref=f5e113] [cursor=pointer]:
+            - /url: /staff/members?show=expired
+          - link "Temporary (under review)" [ref=f5e114] [cursor=pointer]:
+            - /url: /staff/members?show=temporary
+          - link "Profile not filled in" [ref=f5e115] [cursor=pointer]:
+            - /url: /staff/members?show=pending
+        - table [ref=f5e116]:
+          - rowgroup [ref=f5e117]:
+            - row [ref=f5e118]:
+              - columnheader "Name" [ref=f5e119]
+              - columnheader "Membership no. (GymQ)" [ref=f5e120]
+              - columnheader "Plan" [ref=f5e121]
+              - columnheader "Valid to" [ref=f5e122]
+              - columnheader "Status" [ref=f5e123]
+              - columnheader "Card" [ref=f5e124]
+              - columnheader [ref=f5e125]
+          - rowgroup [ref=f5e126]:
+            - row [ref=f5e127]:
+              - cell [ref=f5e128]:
+                - generic [ref=f5e129]: Ada Testada@test.local
+              - cell "Pending" [ref=f5e130]
+              - cell "Individual, 3 months" [ref=f5e131]
+              - cell "Not started" [ref=f5e132]
+              - cell "Profile not filled in" [ref=f5e133]
+              - cell "Not yet" [ref=f5e135]
+              - cell [ref=f5e136]:
+                - link "Open" [ref=f5e137] [cursor=pointer]:
+                  - /url: /staff/applications?tab=all&id=396273e2-dfc8-47d8-854e-2642eea0cd51
+        - paragraph [ref=f5e138]: Membership numbers are typed in from GymQ. This system never creates one.
+  - alert [ref=f5e139]

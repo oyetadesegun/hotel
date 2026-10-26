@@ -1,0 +1,132 @@
+- generic [active] [ref=f2e1]:
+  - main [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - link "Transcorp Hotels Recreation home" [ref=f2e4] [cursor=pointer]:
+        - /url: "#top"
+        - img "Transcorp Hotels" [ref=f2e5]
+        - generic [ref=f2e7]: RECREATION
+      - navigation "Main navigation" [ref=f2e8]:
+        - link "Facilities" [ref=f2e9] [cursor=pointer]:
+          - /url: "#facilities"
+        - link "How it works" [ref=f2e10] [cursor=pointer]:
+          - /url: "#how-it-works"
+        - link "Membership" [ref=f2e11] [cursor=pointer]:
+          - /url: "#membership"
+        - link "My bookings" [ref=f2e12] [cursor=pointer]:
+          - /url: /bookings
+      - button "Book a facility" [ref=f2e15] [cursor=pointer]
+    - generic [ref=f2e19]:
+      - generic [ref=f2e20]: TRANSCORP HOTELS RECREATION
+      - heading [level=1] [ref=f2e23]:
+        - text: Recreation
+        - emphasis [ref=f2e24]: redefined.
+      - paragraph [ref=f2e25]: Make time for movement, connection, and play. Discover recreation facilities designed for better days at Transcorp Hotels.
+      - generic [ref=f2e26]:
+        - button "Find a facility" [ref=f2e27] [cursor=pointer]
+        - link "▶ See how it works" [ref=f2e30] [cursor=pointer]:
+          - /url: "#how-it-works"
+          - generic [ref=f2e31]: ▶
+          - text: See how it works
+      - generic [ref=f2e32]:
+        - generic [ref=f2e33]:
+          - generic [ref=f2e34]: AO
+          - generic [ref=f2e35]: MK
+          - generic [ref=f2e36]: +
+        - generic [ref=f2e37]:
+          - strong [ref=f2e38]: 2,400+
+          - text: sessions booked this month
+    - generic [ref=f2e39]:
+      - generic [ref=f2e40]: BUILT FOR BETTER DAYS
+      - strong [ref=f2e42]: Secure payments
+      - strong [ref=f2e46]: Instant confirmation
+      - strong [ref=f2e49]: 07:00 – 00:00 daily
+    - generic [ref=f2e53]:
+      - generic [ref=f2e54]:
+        - generic [ref=f2e55]:
+          - text: FIND YOUR FLOW
+          - heading [level=2] [ref=f2e56]:
+            - text: Something for
+            - emphasis [ref=f2e57]: every mood.
+        - button "Book a facility" [ref=f2e58] [cursor=pointer]
+      - generic [ref=f2e61]:
+        - button "Family friendly Badminton Indoor hall · 1-hour sessions Book" [ref=f2e62] [cursor=pointer]:
+          - generic [ref=f2e63]: Family friendly
+          - generic [ref=f2e68]:
+            - generic [ref=f2e69]:
+              - heading "Badminton" [level=3] [ref=f2e70]
+              - paragraph [ref=f2e71]: Indoor hall · 1-hour sessions
+            - generic [ref=f2e75]: Book
+        - button "Most popular Padel Indoor & outdoor · 1-hour sessions Book" [ref=f2e78] [cursor=pointer]:
+          - generic [ref=f2e79]: Most popular
+          - generic [ref=f2e84]:
+            - generic [ref=f2e85]:
+              - heading "Padel" [level=3] [ref=f2e86]
+              - paragraph [ref=f2e87]: Indoor & outdoor · 1-hour sessions
+            - generic [ref=f2e91]: Book
+        - button "Quiet hours Squash Climate controlled · 1-hour sessions Book" [ref=f2e94] [cursor=pointer]:
+          - generic [ref=f2e95]: Quiet hours
+          - generic [ref=f2e100]:
+            - generic [ref=f2e101]:
+              - heading "Squash" [level=3] [ref=f2e102]
+              - paragraph [ref=f2e103]: Climate controlled · 1-hour sessions
+            - generic [ref=f2e107]: Book
+        - button "Open today Tennis Floodlit courts · 1-hour sessions Book" [ref=f2e110] [cursor=pointer]:
+          - generic [ref=f2e111]: Open today
+          - generic [ref=f2e116]:
+            - generic [ref=f2e117]:
+              - heading "Tennis" [level=3] [ref=f2e118]
+              - paragraph [ref=f2e119]: Floodlit courts · 1-hour sessions
+            - generic [ref=f2e123]: Book
+    - generic [ref=f2e126]:
+      - generic [ref=f2e132]:
+        - strong [ref=f2e133]: Your court is waiting.
+        - generic [ref=f2e134]: Booking confirmed · BK-7Q4M-2931
+      - generic [ref=f2e137]:
+        - text: SIMPLE BY DESIGN
+        - heading [level=2] [ref=f2e138]:
+          - text: From “let’s play”to
+          - emphasis [ref=f2e139]: let’s go.
+        - paragraph [ref=f2e140]: We’ve made booking feel less like admin and more like the start of something good.
+        - generic [ref=f2e141]:
+          - generic [ref=f2e142]:
+            - generic [ref=f2e143]: "01"
+            - generic [ref=f2e144]:
+              - strong [ref=f2e145]: Tell us who’s playing
+              - paragraph [ref=f2e146]: Members and resident guests are checked automatically and book free.
+          - generic [ref=f2e147]:
+            - generic [ref=f2e148]: "02"
+            - generic [ref=f2e149]:
+              - strong [ref=f2e150]: Pick your place and time
+              - paragraph [ref=f2e151]: See live availability and secure your spot in one click.
+          - generic [ref=f2e152]:
+            - generic [ref=f2e153]: "03"
+            - generic [ref=f2e154]:
+              - strong [ref=f2e155]: Show up and play
+              - paragraph [ref=f2e156]: Get your booking code by email and show it at the desk.
+    - generic [ref=f2e157]:
+      - generic [ref=f2e158]:
+        - text: MORE THAN A BOOKING
+        - heading [level=2] [ref=f2e159]:
+          - text: Make recreationpart of
+          - emphasis [ref=f2e160]: your routine.
+        - paragraph [ref=f2e161]: Join a community that makes time for movement, connection, and a little healthy competition.
+        - link "Explore membership" [ref=f2e162] [cursor=pointer]:
+          - /url: /membership
+      - generic [ref=f2e165]:
+        - strong [ref=f2e171]:
+          - text: One place.
+          - emphasis [ref=f2e172]: Every kind of play.
+        - generic [ref=f2e173]: Memberships · Guests · Walk-ins
+    - generic [ref=f2e174]:
+      - generic [ref=f2e175]:
+        - img "Transcorp Hotels" [ref=f2e176]
+        - generic [ref=f2e178]: RECREATION
+      - generic [ref=f2e179]: © 2026 Transcorp Hotels Plc
+      - generic [ref=f2e180]:
+        - link "Help centre" [ref=f2e181] [cursor=pointer]:
+          - /url: /messages
+        - link "Terms" [ref=f2e182] [cursor=pointer]:
+          - /url: /terms
+        - link "Privacy" [ref=f2e183] [cursor=pointer]:
+          - /url: /terms
+  - alert [ref=f2e184]

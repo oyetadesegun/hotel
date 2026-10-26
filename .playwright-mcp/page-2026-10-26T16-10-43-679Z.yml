@@ -1,0 +1,149 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - navigation "Staff" [ref=f4e3]:
+      - generic [ref=f4e6]:
+        - generic [ref=f4e7]: Recreation
+        - generic [ref=f4e8]: Staff portal
+      - generic [ref=f4e9]:
+        - link "Dashboard" [ref=f4e10] [cursor=pointer]:
+          - /url: /staff
+        - generic [ref=f4e16]:
+          - button "Bookings" [ref=f4e17]
+          - generic [ref=f4e23]:
+            - link "Calendar" [ref=f4e24] [cursor=pointer]:
+              - /url: /staff/calendar
+            - link "New booking" [ref=f4e25] [cursor=pointer]:
+              - /url: /staff/bookings/new
+            - link "Verify a booking" [ref=f4e26] [cursor=pointer]:
+              - /url: /staff/verify
+        - generic [ref=f4e27]:
+          - button "Payments" [ref=f4e28]
+          - generic [ref=f4e35]:
+            - link "Payments" [ref=f4e36] [cursor=pointer]:
+              - /url: /staff/payments
+            - link "Refunds" [ref=f4e37] [cursor=pointer]:
+              - /url: /staff/refunds
+        - generic [ref=f4e38]:
+          - button "Members" [expanded] [ref=f4e39]
+          - generic [ref=f4e50]:
+            - link "Applications" [ref=f4e51] [cursor=pointer]:
+              - /url: /staff/applications
+            - link "Member register" [ref=f4e52] [cursor=pointer]:
+              - /url: /staff/members
+            - link "Guest checks" [ref=f4e53] [cursor=pointer]:
+              - /url: /staff/guest-checks
+        - generic [ref=f4e54]:
+          - button "Facilities and pricing" [ref=f4e55]
+          - generic [ref=f4e63]:
+            - link "Facilities and rentals" [ref=f4e64] [cursor=pointer]:
+              - /url: /staff/facilities
+            - link "Rates and rules" [ref=f4e65] [cursor=pointer]:
+              - /url: /staff/rates
+            - link "Terms and conditions" [ref=f4e66] [cursor=pointer]:
+              - /url: /staff/terms
+        - generic [ref=f4e67]:
+          - button "System" [ref=f4e68]
+          - generic [ref=f4e75]:
+            - link "Users and roles" [ref=f4e76] [cursor=pointer]:
+              - /url: /staff/users
+            - link "Notifications" [ref=f4e77] [cursor=pointer]:
+              - /url: /staff/notifications
+            - link "Integrations" [ref=f4e78] [cursor=pointer]:
+              - /url: /staff/integrations
+        - generic [ref=f4e79]:
+          - button "Oversight" [ref=f4e80]
+          - generic [ref=f4e87]:
+            - link "Exceptions" [ref=f4e88] [cursor=pointer]:
+              - /url: /staff/exceptions
+            - link "Reports" [ref=f4e89] [cursor=pointer]:
+              - /url: /staff/reports
+            - link "Audit trail" [ref=f4e90] [cursor=pointer]:
+              - /url: /staff/audit
+      - generic [ref=f4e91]:
+        - text: Test Admin
+        - generic [ref=f4e92]: Admin
+        - generic [ref=f4e93]:
+          - link "Change password" [ref=f4e94] [cursor=pointer]:
+            - /url: /staff/password
+          - button "Sign out" [ref=f4e96]
+    - main [ref=f4e97]:
+      - generic [ref=f4e98]:
+        - generic [ref=f4e99]:
+          - heading "Member register" [level=1] [ref=f4e101]
+          - paragraph [ref=f4e102]: Approved members, people with a temporary card while they are reviewed, and people who still have to fill in their profile.
+        - generic [ref=f4e103]:
+          - button "Add a member" [ref=f4e104]
+          - dialog "Add a member" [ref=f4e119]:
+            - generic [ref=f4e120]:
+              - generic [ref=f4e121]:
+                - heading "Add a member" [level=2] [ref=f4e122]
+                - button "Close" [active] [ref=f4e123]
+              - generic [ref=f4e127]:
+                - paragraph [ref=f4e128]: They are emailed a link to fill in their membership profile. The application then shows under Applications for review and approval with their GymQ number, like an online sign-up.
+                - generic [ref=f4e129]:
+                  - generic [ref=f4e130]:
+                    - generic [ref=f4e131]: Full name
+                    - textbox "Full name" [ref=f4e132]
+                  - generic [ref=f4e133]:
+                    - generic [ref=f4e134]: Phone
+                    - textbox "Phone" [ref=f4e135]
+                  - generic [ref=f4e136]:
+                    - generic [ref=f4e137]: Email
+                    - textbox "Email" [ref=f4e138]
+                - generic [ref=f4e139]:
+                  - generic [ref=f4e140]:
+                    - generic [ref=f4e141]: Category
+                    - combobox "Category" [ref=f4e142]:
+                      - option "Choose a category" [disabled] [selected]
+                      - option "Individual"
+                      - option "Couple"
+                      - option "Family"
+                      - option "Extra child"
+                      - option "Corporate"
+                  - generic [ref=f4e143]:
+                    - generic [ref=f4e144]: Length
+                    - combobox "Length" [ref=f4e145]:
+                      - option "Choose a length" [disabled] [selected]
+                      - option "1 month"
+                      - option "3 months"
+                      - option "6 months"
+                      - option "Annual"
+                - generic [ref=f4e146]:
+                  - generic [ref=f4e147]:
+                    - generic [ref=f4e148]: Payment
+                    - combobox "Payment" [ref=f4e149]:
+                      - option "How did they pay?" [disabled] [selected]
+                      - option "POS at the desk"
+                      - option "Cash"
+                      - option "Bank transfer"
+                      - option "No payment to record (already paid before)"
+                  - generic [ref=f4e150]:
+                    - generic [ref=f4e151]: Receipt / transaction ref
+                    - textbox "Receipt / transaction ref" [ref=f4e152]
+                    - generic [ref=f4e153]: Needed when a payment is taken.
+                  - generic [ref=f4e154]:
+                    - generic [ref=f4e155]: Amount paid (₦)
+                    - textbox "Amount paid (₦)" [ref=f4e156]
+                    - generic [ref=f4e157]: Leave empty to use the current rate.
+                - button "Add member" [ref=f4e158]
+      - generic [ref=f4e105]:
+        - generic [ref=f4e106]:
+          - textbox "Search" [ref=f4e107]:
+            - /placeholder: Search name, email, phone or membership number
+          - button "Search" [ref=f4e108]
+        - navigation "Filter members" [ref=f4e109]:
+          - link "All" [ref=f4e110] [cursor=pointer]:
+            - /url: /staff/members?show=all
+          - link "Active" [ref=f4e111] [cursor=pointer]:
+            - /url: /staff/members?show=active
+          - link "Expiring in 30 days" [ref=f4e112] [cursor=pointer]:
+            - /url: /staff/members?show=expiring
+          - link "Expired" [ref=f4e113] [cursor=pointer]:
+            - /url: /staff/members?show=expired
+          - link "Temporary (under review)" [ref=f4e114] [cursor=pointer]:
+            - /url: /staff/members?show=temporary
+          - link "Profile not filled in" [ref=f4e115] [cursor=pointer]:
+            - /url: /staff/members?show=pending
+        - generic [ref=f4e116]: No members here yet.
+        - paragraph [ref=f4e117]: Membership numbers are typed in from GymQ. This system never creates one.
+  - alert [ref=f4e118]

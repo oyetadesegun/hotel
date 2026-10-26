@@ -1,0 +1,17 @@
+- generic [active] [ref=f26e1]:
+  - generic [ref=f26e3]:
+    - generic [ref=f26e6]:
+      - text: Recreation
+      - generic [ref=f26e7]: Staff portal, Transcorp Hilton Abuja
+    - heading "Sign in" [level=1] [ref=f26e9]
+    - generic [ref=f26e10]:
+      - generic [ref=f26e11]:
+        - generic [ref=f26e12]: Work email
+        - textbox "Work email" [ref=f26e13]
+      - generic [ref=f26e14]:
+        - generic [ref=f26e15]: Password
+        - textbox "Password" [ref=f26e16]
+      - button "Sign in" [ref=f26e17]
+    - paragraph [ref=f26e18]: Forgot your password? Ask an IT admin to reset it.
+  - button "Open Next.js Dev Tools" [ref=f26e24] [cursor=pointer]
+  - alert [ref=f26e28]

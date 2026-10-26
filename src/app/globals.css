@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+/* Brand tokens (Transcorp Hilton Abuja palette). Change them here and every screen follows. */
+@theme {
+  --color-primary: #ff8300;
+  --color-primary-dark: #e66e00;
+  --color-primary-light: #ffb366;
+  --color-primary-subtle: #fff2e5;
+  --color-charcoal: #54575b;
+  --color-charcoal-light: #75787d;
+  --color-surface: #f5f5f5;
+  --color-line: #eaeaea;
+  /* Orange text on white fails contrast, so links use this darker orange. */
+  --color-link: #a65200;
+  --color-success: #10b981;
+  --color-danger: #ef4444;
+  --color-warning: #f59e0b;
+  --color-info: #3b82f6;
+  --color-ok-bg: #d1fae5;
+  --color-ok-fg: #065f46;
+  --color-warn-bg: #fef3c7;
+  --color-warn-fg: #92400e;
+  --color-bad-bg: #fee2e2;
+  --color-bad-fg: #991b1b;
+  --color-info-bg: #dbeafe;
+  --color-info-fg: #1e40af;
+  --color-neutral-bg: #ededed;
+  --color-neutral-fg: #444444;
+  --color-unavailable: #6b6e73;
+}
+
+@theme inline {
+  --font-sans: var(--font-montserrat), system-ui, sans-serif;
+  /* Serif used for headings on the landing page and customer web pages. */
+  --font-display: Georgia, "Times New Roman", serif;
+}
+
+body {
+  background: var(--color-surface);
+  color: #000;
+}
+
+@layer components {
+  .tbl {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8125rem;
+  }
+  .tbl th {
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-charcoal);
+    padding: 0.625rem 0.75rem;
+    background: var(--color-surface);
+    white-space: nowrap;
+  }
+  .tbl td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #ededed;
+    vertical-align: middle;
+  }
+  .tbl input {
+    height: 2.5rem;
+    width: 100%;
+    min-width: 6rem;
+    border: 1.5px solid var(--color-charcoal-light);
+    border-radius: 0.5rem;
+    padding: 0 0.625rem;
+    font: inherit;
+  }
+}

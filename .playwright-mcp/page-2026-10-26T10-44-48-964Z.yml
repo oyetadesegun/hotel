@@ -1,0 +1,157 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - navigation "Staff" [ref=f6e3]:
+      - generic [ref=f6e6]:
+        - generic [ref=f6e7]: Recreation
+        - generic [ref=f6e8]: Staff portal
+      - generic [ref=f6e9]:
+        - generic [ref=f6e10]: Day to day
+        - link "Dashboard" [ref=f6e11] [cursor=pointer]:
+          - /url: /staff
+        - link "Calendar" [ref=f6e12] [cursor=pointer]:
+          - /url: /staff/calendar
+        - link "New booking" [ref=f6e13] [cursor=pointer]:
+          - /url: /staff/bookings/new
+        - link "Verify a booking" [ref=f6e14] [cursor=pointer]:
+          - /url: /staff/verify
+        - link "Payments" [ref=f6e15] [cursor=pointer]:
+          - /url: /staff/payments
+        - link "Refunds" [ref=f6e16] [cursor=pointer]:
+          - /url: /staff/refunds
+      - generic [ref=f6e17]:
+        - generic [ref=f6e18]: Members
+        - link "Applications" [ref=f6e19] [cursor=pointer]:
+          - /url: /staff/applications
+        - link "Member register" [ref=f6e20] [cursor=pointer]:
+          - /url: /staff/members
+        - link "Guest checks" [ref=f6e21] [cursor=pointer]:
+          - /url: /staff/guest-checks
+      - generic [ref=f6e22]:
+        - generic [ref=f6e23]: Setup
+        - link "Facilities and rentals" [ref=f6e24] [cursor=pointer]:
+          - /url: /staff/facilities
+        - link "Rates and rules" [ref=f6e25] [cursor=pointer]:
+          - /url: /staff/rates
+        - link "Users and roles" [ref=f6e26] [cursor=pointer]:
+          - /url: /staff/users
+        - link "Notifications" [ref=f6e27] [cursor=pointer]:
+          - /url: /staff/notifications
+        - link "Terms and conditions" [ref=f6e28] [cursor=pointer]:
+          - /url: /staff/terms
+        - link "Integrations" [ref=f6e29] [cursor=pointer]:
+          - /url: /staff/integrations
+      - generic [ref=f6e30]:
+        - generic [ref=f6e31]: Oversight
+        - link "Exceptions" [ref=f6e32] [cursor=pointer]:
+          - /url: /staff/exceptions
+        - link "Reports" [ref=f6e33] [cursor=pointer]:
+          - /url: /staff/reports
+        - link "Audit trail" [ref=f6e34] [cursor=pointer]:
+          - /url: /staff/audit
+      - generic [ref=f6e35]:
+        - text: Recreation Manager
+        - generic [ref=f6e36]: Recreation Team
+        - link "Sign out" [ref=f6e37] [cursor=pointer]:
+          - /url: /staff/login
+    - main [ref=f6e38]:
+      - generic [ref=f6e41]:
+        - heading "Membership applications" [level=1] [ref=f6e42]
+        - generic [ref=f6e43]: Sample data
+      - generic [ref=f6e44]:
+        - generic [ref=f6e45]:
+          - tablist [ref=f6e46]:
+            - tab "To review (2)" [selected] [ref=f6e47]
+            - tab "Profile pending (1)" [ref=f6e48]
+            - tab "Card to print (1)" [ref=f6e49]
+            - tab "All" [ref=f6e50]
+          - generic [ref=f6e51]:
+            - generic [ref=f6e52]:
+              - generic [ref=f6e53]: Musa Ibrahim
+              - generic [ref=f6e54]: Today 13:20
+            - generic [ref=f6e55]: Individual, annual
+            - generic [ref=f6e56]: Paid, waiting for review
+          - generic [ref=f6e57]:
+            - generic [ref=f6e58]:
+              - generic [ref=f6e59]: Ngozi and Emeka Obi
+              - generic [ref=f6e60]: Today 11:05
+            - generic [ref=f6e61]: Couple, 6 months
+            - generic [ref=f6e62]: Paid, waiting for review
+          - generic [ref=f6e63]:
+            - generic [ref=f6e64]:
+              - generic [ref=f6e65]: Aisha Lawal
+              - generic [ref=f6e66]: Yesterday
+            - generic [ref=f6e67]: Individual, 3 months
+            - generic [ref=f6e68]: Approved, print card
+          - generic [ref=f6e69]:
+            - generic [ref=f6e70]:
+              - generic [ref=f6e71]: Chidi Okafor
+              - generic [ref=f6e72]: 2 days ago
+            - generic [ref=f6e73]: Family, annual
+            - generic [ref=f6e74]: Paid, profile not finished
+        - generic [ref=f6e76]:
+          - generic [ref=f6e77]:
+            - generic [ref=f6e78]:
+              - generic [ref=f6e79]: Application reference
+              - heading "MA-2026-0418" [level=2] [ref=f6e80]
+            - generic [ref=f6e81]: Paid, waiting for review
+          - generic [ref=f6e82]:
+            - generic [ref=f6e83]:
+              - img "Temporary Hiltonia Club membership card for Musa Ibrahim, IND - 12 MONTHS" [ref=f6e85]:
+                - generic [ref=f6e91]:
+                  - img [aria-hidden] [ref=f6e92]:
+                    - generic [ref=f6e94]: HILTONIA
+                    - generic [ref=f6e95]: FITNESS • CLUB
+                  - generic [ref=f6e98]:
+                    - generic [ref=f6e99]: HILTONIA CLUB
+                    - generic [ref=f6e100]: Transcorp Hilton Abuja
+                - generic [ref=f6e106]:
+                  - generic [ref=f6e107]: Musa Ibrahim
+                  - generic [ref=f6e108]: IND - 12 MONTHS
+                  - generic [ref=f6e109]: Membership no. pending
+                - generic [ref=f6e158]: TEMPORARY
+              - generic [ref=f6e160]: Card preview. The number fills in from GymQ.
+            - generic [ref=f6e162]:
+              - generic [ref=f6e163]:
+                - generic [ref=f6e164]: Name
+                - generic [ref=f6e165]: Musa Ibrahim
+              - generic [ref=f6e166]:
+                - generic [ref=f6e167]: Phone
+                - generic [ref=f6e168]: 0803 000 0000
+              - generic [ref=f6e169]:
+                - generic [ref=f6e170]: Email
+                - generic [ref=f6e171]: musa@example.com
+              - generic [ref=f6e172]:
+                - generic [ref=f6e173]: Category
+                - generic [ref=f6e174]: Individual, annual
+              - generic [ref=f6e175]:
+                - generic [ref=f6e176]: Membership fee
+                - generic [ref=f6e177]: ₦902,000
+              - generic [ref=f6e178]:
+                - generic [ref=f6e179]: Application form
+                - generic [ref=f6e180]: ₦20,000
+              - generic [ref=f6e181]:
+                - generic [ref=f6e182]: Payment
+                - generic [ref=f6e183]: Online, confirmed
+          - generic [ref=f6e185]:
+            - heading "Steps for the Recreation Manager" [level=3] [ref=f6e186]
+            - generic [ref=f6e187]:
+              - checkbox "1. Details and photo checked" [checked] [ref=f6e188]
+              - generic [ref=f6e189]: 1. Details and photo checked
+            - generic [ref=f6e190]:
+              - checkbox "2. Member entered in GymQ" [ref=f6e191]
+              - generic [ref=f6e192]: 2. Member entered in GymQ
+            - generic [ref=f6e193]:
+              - generic [ref=f6e194]: 3. Membership number given by GymQ
+              - textbox "3. Membership number given by GymQ" [ref=f6e195]
+              - generic [ref=f6e196]: Numbers come from GymQ only. This system never creates one.
+            - generic [ref=f6e197]:
+              - checkbox "4. Physical card printed and issued" [ref=f6e198]
+              - generic [ref=f6e199]: 4. Physical card printed and issued
+          - generic [ref=f6e200]:
+            - link "Approve and activate" [ref=f6e201] [cursor=pointer]:
+              - /url: /staff/applications
+            - link "Reject with reason" [ref=f6e202] [cursor=pointer]:
+              - /url: /staff/applications
+          - generic [ref=f6e203]: People who paid online but have not finished their profile show under Profile pending. They are emailed a reminder after 3 days, and you can resend the link from their application.
+          - generic [ref=f6e204]: The temporary card works for booking until you approve. If an application is rejected, the card is revoked, the applicant is told why, and the Hotel decides on any refund.
+  - button "Open Next.js Dev Tools" [ref=f6e210] [cursor=pointer]

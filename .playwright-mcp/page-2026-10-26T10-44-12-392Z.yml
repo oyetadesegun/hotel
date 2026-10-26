@@ -1,0 +1,39 @@
+- generic [active] [ref=f4e1]:
+  - main [ref=f4e5]:
+    - list [ref=f4e6]:
+      - listitem [ref=f4e7]: 1 Pay
+      - listitem [ref=f4e8]: 2 Profile
+      - listitem [ref=f4e9]: 3 Card
+    - heading "Payment received" [level=1] [ref=f4e10]
+    - paragraph [ref=f4e11]: Your temporary card is ready, so you can start booking now while we complete your membership.
+    - img "Temporary Hiltonia Club membership card for Ada Obi, IND - 12 MONTHS" [ref=f4e13]:
+      - generic [ref=f4e19]:
+        - img [aria-hidden] [ref=f4e20]:
+          - generic [ref=f4e22]: HILTONIA
+          - generic [ref=f4e23]: FITNESS • CLUB
+        - generic [ref=f4e26]:
+          - generic [ref=f4e27]: HILTONIA CLUB
+          - generic [ref=f4e28]: Transcorp Hilton Abuja
+      - generic [ref=f4e34]:
+        - generic [ref=f4e35]: Ada Obi
+        - generic [ref=f4e36]: IND - 12 MONTHS
+        - generic [ref=f4e37]: Membership no. pending
+      - generic [ref=f4e86]: TEMPORARY
+    - list [ref=f4e88]:
+      - listitem [ref=f4e89]:
+        - generic [ref=f4e93]: Payment received
+      - listitem [ref=f4e94]:
+        - generic [ref=f4e98]: Profile completed
+      - listitem [ref=f4e99]:
+        - generic [ref=f4e100]: "3"
+        - generic [ref=f4e101]: Recreation Manager is checking your details
+      - listitem [ref=f4e102]:
+        - generic [ref=f4e103]: "4"
+        - generic [ref=f4e104]: Membership number issued
+      - listitem [ref=f4e105]:
+        - generic [ref=f4e106]: "5"
+        - generic [ref=f4e107]: Collect your physical card at the Recreation desk
+    - paragraph [ref=f4e108]: Your membership number will appear on this card once it is issued. We will email you.
+    - link "Book a court" [ref=f4e109] [cursor=pointer]:
+      - /url: /book
+  - button "Open Next.js Dev Tools" [ref=f4e115] [cursor=pointer]

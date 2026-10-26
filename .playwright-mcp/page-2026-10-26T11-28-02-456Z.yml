@@ -1,0 +1,89 @@
+- generic [active] [ref=f36e1]:
+  - generic [ref=f36e2]:
+    - navigation "Staff" [ref=f36e3]:
+      - generic [ref=f36e6]:
+        - generic [ref=f36e7]: Recreation
+        - generic [ref=f36e8]: Staff portal
+      - generic [ref=f36e9]:
+        - generic [ref=f36e10]: Day to day
+        - link "Dashboard" [ref=f36e11] [cursor=pointer]:
+          - /url: /staff
+        - link "Calendar" [ref=f36e12] [cursor=pointer]:
+          - /url: /staff/calendar
+        - link "New booking" [ref=f36e13] [cursor=pointer]:
+          - /url: /staff/bookings/new
+        - link "Verify a booking" [ref=f36e14] [cursor=pointer]:
+          - /url: /staff/verify
+        - link "Payments" [ref=f36e15] [cursor=pointer]:
+          - /url: /staff/payments
+        - link "Refunds" [ref=f36e16] [cursor=pointer]:
+          - /url: /staff/refunds
+      - generic [ref=f36e17]:
+        - generic [ref=f36e18]: Members
+        - link "Applications" [ref=f36e19] [cursor=pointer]:
+          - /url: /staff/applications
+        - link "Member register" [ref=f36e20] [cursor=pointer]:
+          - /url: /staff/members
+        - link "Guest checks" [ref=f36e21] [cursor=pointer]:
+          - /url: /staff/guest-checks
+      - generic [ref=f36e22]:
+        - generic [ref=f36e23]: Setup
+        - link "Facilities and rentals" [ref=f36e24] [cursor=pointer]:
+          - /url: /staff/facilities
+        - link "Rates and rules" [ref=f36e25] [cursor=pointer]:
+          - /url: /staff/rates
+        - link "Users and roles" [ref=f36e26] [cursor=pointer]:
+          - /url: /staff/users
+        - link "Notifications" [ref=f36e27] [cursor=pointer]:
+          - /url: /staff/notifications
+        - link "Terms and conditions" [ref=f36e28] [cursor=pointer]:
+          - /url: /staff/terms
+        - link "Integrations" [ref=f36e29] [cursor=pointer]:
+          - /url: /staff/integrations
+      - generic [ref=f36e30]:
+        - generic [ref=f36e31]: Oversight
+        - link "Exceptions" [ref=f36e32] [cursor=pointer]:
+          - /url: /staff/exceptions
+        - link "Reports" [ref=f36e33] [cursor=pointer]:
+          - /url: /staff/reports
+        - link "Audit trail" [ref=f36e34] [cursor=pointer]:
+          - /url: /staff/audit
+      - generic [ref=f36e35]:
+        - text: Test Manager
+        - generic [ref=f36e36]: Recreation Manager
+        - generic [ref=f36e37]:
+          - link "Change password" [ref=f36e38] [cursor=pointer]:
+            - /url: /staff/password
+          - button "Sign out" [ref=f36e40]
+    - main [ref=f36e41]:
+      - generic [ref=f36e43]:
+        - heading "Hello, Test" [level=1] [ref=f36e45]
+        - paragraph [ref=f36e46]: Monday, 26 October 2026
+      - generic [ref=f36e47]:
+        - generic [ref=f36e48]:
+          - generic [ref=f36e49]: Applications to review
+          - generic [ref=f36e50]: "0"
+          - generic [ref=f36e51]: 0 more waiting for the applicant's profile
+        - generic [ref=f36e52]:
+          - generic [ref=f36e53]: Active members
+          - generic [ref=f36e54]: "1"
+          - generic [ref=f36e55]: 1 card to print
+        - generic [ref=f36e56]:
+          - generic [ref=f36e57]: Payments this month
+          - generic [ref=f36e58]: ₦902,000
+          - generic [ref=f36e59]: 1 payment received
+        - generic [ref=f36e60]:
+          - generic [ref=f36e61]: Bookings today
+          - generic [ref=f36e62]: "0"
+          - generic [ref=f36e63]: Across 4 facilities
+      - generic [ref=f36e64]:
+        - generic [ref=f36e66]:
+          - heading "Today's sessions" [level=2] [ref=f36e67]
+          - generic [ref=f36e68]: No bookings today.
+        - generic [ref=f36e70]:
+          - heading "Needs attention" [level=2] [ref=f36e71]
+          - generic [ref=f36e72]:
+            - text: 1 card to printApproved, physical card not issued yet
+            - link "Open" [ref=f36e73] [cursor=pointer]:
+              - /url: /staff/applications?tab=print
+  - alert [ref=f36e74]

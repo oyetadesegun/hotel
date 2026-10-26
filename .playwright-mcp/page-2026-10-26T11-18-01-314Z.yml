@@ -1,0 +1,77 @@
+- generic [active] [ref=f34e1]:
+  - generic [ref=f34e2]:
+    - banner [ref=f34e3]:
+      - link "Transcorp Hotels Recreation home" [ref=f34e4] [cursor=pointer]:
+        - /url: /
+        - img "Transcorp Hotels" [ref=f34e5]
+        - generic [ref=f34e7]: RECREATION
+      - navigation "Main" [ref=f34e8]:
+        - link "My bookings" [ref=f34e9] [cursor=pointer]:
+          - /url: /bookings
+        - link "Messages" [ref=f34e10] [cursor=pointer]:
+          - /url: /messages
+        - link "Membership" [ref=f34e11] [cursor=pointer]:
+          - /url: /membership
+        - link "Terms" [ref=f34e12] [cursor=pointer]:
+          - /url: /terms
+      - link "Book a facility" [ref=f34e13] [cursor=pointer]:
+        - /url: /?book=1
+        - text: Book a facility
+        - generic [aria-hidden] [ref=f34e14]: →
+    - generic [ref=f34e16]:
+      - banner [ref=f34e45]:
+        - heading "My membership" [level=1] [ref=f34e46]
+        - button "Sign out" [ref=f34e48]
+      - generic [ref=f34e49]:
+        - generic [ref=f34e50]:
+          - img "Hiltonia Club membership card for Chika Test, IND - 12 MONTHS, number 5723" [ref=f34e52]:
+            - generic [ref=f34e58]:
+              - img [aria-hidden] [ref=f34e59]:
+                - generic [ref=f34e61]: HILTONIA
+                - generic [ref=f34e62]: FITNESS • CLUB
+              - generic [ref=f34e65]:
+                - generic [ref=f34e66]: HILTONIA CLUB
+                - generic [ref=f34e67]: Transcorp Hilton Abuja
+            - generic [ref=f34e69]:
+              - generic [ref=f34e70]: Chika Test
+              - generic [ref=f34e71]: IND - 12 MONTHS
+              - generic [ref=f34e72]: "Expires on: 25/10/2027"
+            - generic [ref=f34e97]: "5723"
+          - generic [ref=f34e99]: Active
+        - generic [ref=f34e101]:
+          - generic [ref=f34e102]:
+            - generic [ref=f34e103]: Name
+            - generic [ref=f34e104]: Chika Test
+          - generic [ref=f34e105]:
+            - generic [ref=f34e106]: Category
+            - generic [ref=f34e107]: Individual
+          - generic [ref=f34e108]:
+            - generic [ref=f34e109]: Length
+            - generic [ref=f34e110]: Annual
+          - generic [ref=f34e111]:
+            - generic [ref=f34e112]: Application ref
+            - generic [ref=f34e113]: MA-2026-0001
+          - generic [ref=f34e114]:
+            - generic [ref=f34e115]: Membership no.
+            - generic [ref=f34e116]: "5723"
+          - generic [ref=f34e117]:
+            - generic [ref=f34e118]: Valid
+            - generic [ref=f34e119]: 26 Oct 2026 to 25 Oct 2027
+          - generic [ref=f34e120]:
+            - generic [ref=f34e121]: Paid
+            - generic [ref=f34e122]: ₦902,000
+          - generic [ref=f34e123]:
+            - generic [ref=f34e124]: Card
+            - generic [ref=f34e125]: Ready to collect at the Recreation desk
+        - generic [ref=f34e126]: RenewalWe will remind you 30 days before your membership ends. Ask the Recreation desk to renew.
+    - contentinfo [ref=f34e35]:
+      - link "Transcorp Hotels Recreation home" [ref=f34e37] [cursor=pointer]:
+        - /url: /
+        - img "Transcorp Hotels" [ref=f34e38]
+        - generic [ref=f34e40]: RECREATION
+      - generic [ref=f34e41]: © 2026 Transcorp Hotels Plc
+      - link "Help centre" [ref=f34e42] [cursor=pointer]:
+        - /url: /messages
+      - link "Terms" [ref=f34e43] [cursor=pointer]:
+        - /url: /terms
+  - alert [ref=f34e44]: My membership | Recreation Booking

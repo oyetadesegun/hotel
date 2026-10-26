@@ -1,0 +1,97 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e49]:
+    - navigation "Staff" [ref=f3e50]:
+      - generic [ref=f3e53]:
+        - generic [ref=f3e54]: Recreation
+        - generic [ref=f3e55]: Staff portal
+      - generic [ref=f3e56]:
+        - link "Dashboard" [ref=f3e57] [cursor=pointer]:
+          - /url: /staff
+        - generic [ref=f3e63]:
+          - button "Bookings" [ref=f3e64]
+          - generic [ref=f3e70]:
+            - link "Calendar" [ref=f3e71] [cursor=pointer]:
+              - /url: /staff/calendar
+            - link "New booking" [ref=f3e72] [cursor=pointer]:
+              - /url: /staff/bookings/new
+            - link "Verify a booking" [ref=f3e73] [cursor=pointer]:
+              - /url: /staff/verify
+        - generic [ref=f3e74]:
+          - button "Payments" [ref=f3e75]
+          - generic [ref=f3e82]:
+            - link "Payments" [ref=f3e83] [cursor=pointer]:
+              - /url: /staff/payments
+            - link "Refunds" [ref=f3e84] [cursor=pointer]:
+              - /url: /staff/refunds
+        - generic [ref=f3e85]:
+          - button "Members" [ref=f3e86]
+          - generic [ref=f3e95]:
+            - link "Applications" [ref=f3e96] [cursor=pointer]:
+              - /url: /staff/applications
+            - link "Member register" [ref=f3e97] [cursor=pointer]:
+              - /url: /staff/members
+            - link "Guest checks" [ref=f3e98] [cursor=pointer]:
+              - /url: /staff/guest-checks
+        - generic [ref=f3e99]:
+          - button "Facilities and pricing" [ref=f3e100]
+          - generic [ref=f3e108]:
+            - link "Facilities and rentals" [ref=f3e109] [cursor=pointer]:
+              - /url: /staff/facilities
+            - link "Rates and rules" [ref=f3e110] [cursor=pointer]:
+              - /url: /staff/rates
+            - link "Terms and conditions" [ref=f3e111] [cursor=pointer]:
+              - /url: /staff/terms
+        - generic [ref=f3e112]:
+          - button "System" [ref=f3e113]
+          - generic [ref=f3e120]:
+            - link "Users and roles" [ref=f3e121] [cursor=pointer]:
+              - /url: /staff/users
+            - link "Notifications" [ref=f3e122] [cursor=pointer]:
+              - /url: /staff/notifications
+            - link "Integrations" [ref=f3e123] [cursor=pointer]:
+              - /url: /staff/integrations
+        - generic [ref=f3e124]:
+          - button "Oversight" [ref=f3e125]
+          - generic [ref=f3e132]:
+            - link "Exceptions" [ref=f3e133] [cursor=pointer]:
+              - /url: /staff/exceptions
+            - link "Reports" [ref=f3e134] [cursor=pointer]:
+              - /url: /staff/reports
+            - link "Audit trail" [ref=f3e135] [cursor=pointer]:
+              - /url: /staff/audit
+      - generic [ref=f3e137]:
+        - text: Test Admin
+        - generic [ref=f3e138]: Admin
+        - generic [ref=f3e139]:
+          - link "Change password" [ref=f3e140] [cursor=pointer]:
+            - /url: /staff/password
+          - button "Sign out" [ref=f3e142]
+    - main [ref=f3e143]:
+      - generic [ref=f3e145]:
+        - heading "Hello, Test" [level=1] [ref=f3e147]
+        - paragraph [ref=f3e148]: Monday, 26 October 2026
+      - generic [ref=f3e149]:
+        - generic [ref=f3e150]:
+          - generic [ref=f3e151]: Applications to review
+          - generic [ref=f3e152]: "0"
+          - generic [ref=f3e153]: 0 more waiting for the applicant's profile
+        - generic [ref=f3e154]:
+          - generic [ref=f3e155]: Active members
+          - generic [ref=f3e156]: "0"
+          - generic [ref=f3e157]: 0 cards to print
+        - generic [ref=f3e158]:
+          - generic [ref=f3e159]: Payments this month
+          - generic [ref=f3e160]: ₦0
+          - generic [ref=f3e161]: 0 payments received
+        - generic [ref=f3e162]:
+          - generic [ref=f3e163]: Bookings today
+          - generic [ref=f3e164]: "0"
+          - generic [ref=f3e165]: Across 0 facilities
+      - generic [ref=f3e166]:
+        - generic [ref=f3e168]:
+          - heading "Today's sessions" [level=2] [ref=f3e169]
+          - generic [ref=f3e170]: No bookings today.
+        - generic [ref=f3e172]:
+          - heading "Needs attention" [level=2] [ref=f3e173]
+          - generic [ref=f3e174]: Nothing needs attention right now.
+  - alert [ref=f3e48]: Dashboard | Recreation Booking

@@ -1,0 +1,662 @@
+[     250ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[     877ms] [LOG] [Fast Refresh] done in 735ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[    1090ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[    1476ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[    1539ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[    1913ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="applications/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/staff/app..." tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="staff/(por...">
+                  <SegmentTrieNode>
+                  <ApplicationsPage>
+                    <div>
+                    <Cols>
+                      <div className="flex flex-...">
+                        <div>
+                        <Col>
+                          <div className="flex min-w..." style={{flex:"2 1 ..."}}>
+                            <Card>
+                              <section className="flex min-w...">
+                                <div>
+                                <div>
+                                <div>
+                                <div className="flex flex-...">
+                                  <h3>
+                                  <CheckRow>
+                                    <label className="flex items...">
+                                      <input
+                                        type="checkbox"
+                                        className="size-5 accent-primary"
+                                        defaultChecked={true}
+-                                       style={{caret-color:"transparent"}}
+                                      >
+                                      ...
+                                  <CheckRow>
+                                    <label className="flex items...">
+                                      <input
+                                        type="checkbox"
+                                        className="size-5 accent-primary"
+-                                       style={{caret-color:"transparent"}}
+                                      >
+                                      ...
+                                  <Field>
+                                    <div className="flex min-w...">
+                                      <label>
+                                      <input
+                                        id="gymq"
+                                        name="gymq"
+                                        className="h-12 w-full rounded-[10px] border-[1.5px] border-charcoal-light bg-..."
+-                                       style={{caret-color:"transparent"}}
+                                      >
+                                      ...
+                                  <CheckRow>
+                                    <label className="flex items...">
+                                      <input
+                                        type="checkbox"
+                                        className="size-5 accent-primary"
+-                                       style={{caret-color:"transparent"}}
+                                      >
+                                      ...
+                                ...
+                ...
+              ...
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:995
+[  461083ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[  461883ms] [LOG] [Fast Refresh] done in 1281ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[  462352ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[  462825ms] [LOG] [Fast Refresh] done in 704ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[  463608ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications?_rsc=I93rMI37ry9I5vBl:0
+[  463785ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  466629ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  466834ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  466878ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  468442ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0
+[  469788ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  470199ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  470271ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  470272ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  472559ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  472895ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  472920ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  472941ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  475311ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  475557ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  475681ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  475680ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  493166ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  493270ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  493289ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  493337ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  495468ms] [LOG] [Fast Refresh] done in 2019ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  495717ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  495991ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  496027ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  496140ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  498516ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  498807ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  498860ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  498876ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  499705ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  500060ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  500081ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  500112ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  501252ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  501583ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  501630ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  501693ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  505179ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  505513ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  505526ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  505559ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  576224ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  576517ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  576555ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  576557ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  582897ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  583122ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  583139ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  583151ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  587526ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  587810ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  587902ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  587907ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  589818ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  590089ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  590105ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  590105ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  601871ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  601985ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  602016ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  602082ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  604676ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  605017ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  605046ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  605073ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  791381ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/staff/applications:0
+[  791548ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_cjs_react-dom-client_development_1nq9a-7w2rk6e.js:16702
+[  791575ms] Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at createServerClient (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_0tamgxocigk70._.js:9376:15)
+    at updateSession (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:32:218)
+    at proxy (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\[root-of-the-server]__1kv7sdpq2ub2v._.js:63:161)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:615:26)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:633)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at <unknown> (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:8030:314)
+    at async adapter (file://C:\Users\SegunOyetade\coding\web\hotel\.next\dev\server\chunks\node_modules_next_0guo602jnbapn._.js:7969:16)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:1221:26)
+    at async DevServer.runMiddleware (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:268:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\next-server.js:394:26)
+    at async DevServer.handleRequestImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\base-server.js:980:28)
+    at async (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:384:20)
+    at async Span.traceAsyncFn (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\trace\trace.js:168:20)
+    at async DevServer.handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\dev\next-dev-server.js:380:24)
+    at async handleRoute (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:371:33)
+    at async resolveRoutes (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-utils\resolve-routes.js:631:28)
+    at async handleRequest (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:407:96)
+    at async requestHandlerImpl (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\router-server.js:636:13)
+    at async Server.requestListener (file://C:\Users\SegunOyetade\coding\web\hotel\node_modules\next\dist\server\lib\start-server.js:210:13)
+[  791593ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  943693ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[  943853ms] [LOG] [Fast Refresh] done in 269ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[ 1154885ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[ 1155127ms] [LOG] [Fast Refresh] done in 461ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[ 1155724ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[ 1155817ms] [LOG] [Fast Refresh] done in 200ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[ 1156063ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03q-xsfc._.js:703
+[ 1157010ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1157072ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1276560ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1277283ms] [LOG] [Fast Refresh] done in 72ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1292951ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1293367ms] [LOG] [Fast Refresh] done in 351ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1294450ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1294482ms] [LOG] [Fast Refresh] done in 64ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1333715ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1336497ms] [LOG] [Fast Refresh] done in 6264ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1337017ms] [LOG] [Fast Refresh] done in 0ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1337585ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1338068ms] [LOG] [Fast Refresh] done in 34ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1338090ms] [LOG] [Fast Refresh] done in 34ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1348687ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1348707ms] [LOG] [Fast Refresh] done in 9ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1348709ms] [LOG] [Fast Refresh] done in 9ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1359891ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1362868ms] [LOG] [Fast Refresh] done in 132ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1377638ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1377651ms] [LOG] [Fast Refresh] done in 191ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1383075ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1383293ms] [LOG] [Fast Refresh] done in 331ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1384256ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1384339ms] [LOG] [Fast Refresh] done in 339ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1384654ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1384883ms] [LOG] [Fast Refresh] done in 356ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1427942ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1428200ms] [LOG] [Fast Refresh] done in 244ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1428201ms] [LOG] [Fast Refresh] done in 244ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1428433ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1428462ms] [LOG] [Fast Refresh] done in 188ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1456073ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1456235ms] [LOG] [Fast Refresh] done in 256ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1456574ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1456738ms] [LOG] [Fast Refresh] done in 280ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1470702ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1470862ms] [LOG] [Fast Refresh] done in 258ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1471104ms] [LOG] [Fast Refresh] done in 258ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1483020ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1483179ms] [LOG] [Fast Refresh] done in 81ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1483181ms] [LOG] [Fast Refresh] done in 81ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1504253ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1504542ms] [LOG] [Fast Refresh] done in 308ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1504749ms] [LOG] [Fast Refresh] done in 308ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1504992ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1505040ms] [LOG] [Fast Refresh] done in 246ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1517302ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=CpMwiYIUA0ozgMolqHiKQ' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_14zvornz047l2._.js:16398
+[ 1518324ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=CpMwiYIUA0ozgMolqHiKQ' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_14zvornz047l2._.js:16398
+[ 1519392ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=CpMwiYIUA0ozgMolqHiKQ' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_14zvornz047l2._.js:16398
+[ 1520432ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=CpMwiYIUA0ozgMolqHiKQ' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_14zvornz047l2._.js:16398
+[ 1521444ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=CpMwiYIUA0ozgMolqHiKQ' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_14zvornz047l2._.js:16398
+[ 1538852ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1552340ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1552606ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1587031ms] [LOG] [Fast Refresh] done in 13776ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1587347ms] [LOG] [Fast Refresh] done in 13776ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1587591ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719
+[ 1587862ms] [LOG] [Fast Refresh] done in 508ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1bjkg68unqmjx._.js:719

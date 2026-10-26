@@ -1,0 +1,232 @@
+- generic [ref=f1e1]:
+  - main [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "Transcorp Hotels Recreation home" [ref=f1e4] [cursor=pointer]:
+        - /url: "#top"
+        - img "Transcorp Hotels" [ref=f1e5]
+        - generic [ref=f1e7]: RECREATION
+      - navigation "Main navigation" [ref=f1e8]:
+        - link "Facilities" [ref=f1e9] [cursor=pointer]:
+          - /url: "#facilities"
+        - link "How it works" [ref=f1e10] [cursor=pointer]:
+          - /url: "#how-it-works"
+        - link "Membership" [ref=f1e11] [cursor=pointer]:
+          - /url: "#membership"
+        - link "My bookings" [ref=f1e12] [cursor=pointer]:
+          - /url: /bookings
+      - generic [ref=f1e13]:
+        - link "Sign in" [ref=f1e14] [cursor=pointer]:
+          - /url: /login
+        - button "Book a facility" [ref=f1e15] [cursor=pointer]
+    - generic [ref=f1e19]:
+      - generic [ref=f1e20]: TRANSCORP HOTELS RECREATION
+      - heading [level=1] [ref=f1e23]:
+        - text: Recreation
+        - emphasis [ref=f1e24]: redefined.
+      - paragraph [ref=f1e25]: Make time for movement, connection, and play. Discover recreation facilities designed for better days at Transcorp Hotels.
+      - generic [ref=f1e26]:
+        - button "Find a facility" [ref=f1e27] [cursor=pointer]
+        - link "▶ See how it works" [ref=f1e30] [cursor=pointer]:
+          - /url: "#how-it-works"
+          - generic [ref=f1e31]: ▶
+          - text: See how it works
+      - generic [ref=f1e32]:
+        - generic [ref=f1e33]:
+          - generic [ref=f1e34]: AO
+          - generic [ref=f1e35]: MK
+          - generic [ref=f1e36]: +
+        - generic [ref=f1e37]:
+          - strong [ref=f1e38]: 2,400+
+          - text: sessions booked this month
+    - generic [ref=f1e39]:
+      - generic [ref=f1e40]: BUILT FOR BETTER DAYS
+      - strong [ref=f1e42]: Secure payments
+      - strong [ref=f1e46]: Instant confirmation
+      - strong [ref=f1e49]: 07:00 – 00:00 daily
+    - generic [ref=f1e53]:
+      - generic [ref=f1e54]:
+        - generic [ref=f1e55]:
+          - text: FIND YOUR FLOW
+          - heading [level=2] [ref=f1e56]:
+            - text: Something for
+            - emphasis [ref=f1e57]: every mood.
+        - button "Book a facility" [ref=f1e58] [cursor=pointer]
+      - generic [ref=f1e61]:
+        - button "Family friendly Badminton Indoor hall · 1-hour sessions Book" [ref=f1e62] [cursor=pointer]:
+          - generic [ref=f1e63]: Family friendly
+          - generic [ref=f1e68]:
+            - generic [ref=f1e69]:
+              - heading "Badminton" [level=3] [ref=f1e70]
+              - paragraph [ref=f1e71]: Indoor hall · 1-hour sessions
+            - generic [ref=f1e75]: Book
+        - button "Most popular Padel Indoor & outdoor · 1-hour sessions Book" [ref=f1e78] [cursor=pointer]:
+          - generic [ref=f1e79]: Most popular
+          - generic [ref=f1e84]:
+            - generic [ref=f1e85]:
+              - heading "Padel" [level=3] [ref=f1e86]
+              - paragraph [ref=f1e87]: Indoor & outdoor · 1-hour sessions
+            - generic [ref=f1e91]: Book
+        - button "Quiet hours Squash Climate controlled · 1-hour sessions Book" [ref=f1e94] [cursor=pointer]:
+          - generic [ref=f1e95]: Quiet hours
+          - generic [ref=f1e100]:
+            - generic [ref=f1e101]:
+              - heading "Squash" [level=3] [ref=f1e102]
+              - paragraph [ref=f1e103]: Climate controlled · 1-hour sessions
+            - generic [ref=f1e107]: Book
+        - button "Open today Tennis Floodlit courts · 1-hour sessions Book" [ref=f1e110] [cursor=pointer]:
+          - generic [ref=f1e111]: Open today
+          - generic [ref=f1e116]:
+            - generic [ref=f1e117]:
+              - heading "Tennis" [level=3] [ref=f1e118]
+              - paragraph [ref=f1e119]: Floodlit courts · 1-hour sessions
+            - generic [ref=f1e123]: Book
+    - generic [ref=f1e126]:
+      - generic [ref=f1e132]:
+        - strong [ref=f1e133]: Your court is waiting.
+        - generic [ref=f1e134]: Booking confirmed · BK-7Q4M-2931
+      - generic [ref=f1e137]:
+        - text: SIMPLE BY DESIGN
+        - heading [level=2] [ref=f1e138]:
+          - text: From “let’s play”to
+          - emphasis [ref=f1e139]: let’s go.
+        - paragraph [ref=f1e140]: We’ve made booking feel less like admin and more like the start of something good.
+        - generic [ref=f1e141]:
+          - generic [ref=f1e142]:
+            - generic [ref=f1e143]: "01"
+            - generic [ref=f1e144]:
+              - strong [ref=f1e145]: Tell us who’s playing
+              - paragraph [ref=f1e146]: Members and resident guests are checked automatically and book free.
+          - generic [ref=f1e147]:
+            - generic [ref=f1e148]: "02"
+            - generic [ref=f1e149]:
+              - strong [ref=f1e150]: Pick your place and time
+              - paragraph [ref=f1e151]: See live availability and secure your spot in one click.
+          - generic [ref=f1e152]:
+            - generic [ref=f1e153]: "03"
+            - generic [ref=f1e154]:
+              - strong [ref=f1e155]: Show up and play
+              - paragraph [ref=f1e156]: Get your booking code by email and show it at the desk.
+    - generic [ref=f1e157]:
+      - generic [ref=f1e158]:
+        - text: MORE THAN A BOOKING
+        - heading [level=2] [ref=f1e159]:
+          - text: Make recreationpart of
+          - emphasis [ref=f1e160]: your routine.
+        - paragraph [ref=f1e161]: Join a community that makes time for movement, connection, and a little healthy competition.
+        - link "Explore membership" [ref=f1e162] [cursor=pointer]:
+          - /url: /membership
+      - generic [ref=f1e165]:
+        - strong [ref=f1e171]:
+          - text: One place.
+          - emphasis [ref=f1e172]: Every kind of play.
+        - generic [ref=f1e173]: Memberships · Guests · Walk-ins
+    - generic [ref=f1e174]:
+      - generic [ref=f1e175]:
+        - img "Transcorp Hotels" [ref=f1e176]
+        - generic [ref=f1e178]: RECREATION
+      - generic [ref=f1e179]: © 2026 Transcorp Hotels Plc
+      - generic [ref=f1e180]:
+        - link "Help centre" [ref=f1e181] [cursor=pointer]:
+          - /url: /messages
+        - link "Terms" [ref=f1e182] [cursor=pointer]:
+          - /url: /terms
+        - link "Privacy" [ref=f1e183] [cursor=pointer]:
+          - /url: /terms
+    - dialog [ref=f1e221]:
+      - button "Close booking" [ref=f1e185] [cursor=pointer]
+      - button "BACK" [ref=f1e222] [cursor=pointer]
+      - generic [ref=f1e225]: BOOK A FACILITY · STEP 2 OF 3
+      - heading [level=2] [ref=f1e226]:
+        - text: Find your
+        - emphasis [ref=f1e227]: playing time.
+      - generic [ref=f1e228]:
+        - generic [ref=f1e229]:
+          - generic [ref=f1e230]:
+            - generic [ref=f1e231]: FACILITY
+            - generic [ref=f1e232]:
+              - button "Badminton" [ref=f1e233] [cursor=pointer]
+              - button "Padel" [pressed] [ref=f1e234] [cursor=pointer]
+              - button "Squash" [ref=f1e235] [cursor=pointer]
+              - button "Tennis" [ref=f1e236] [cursor=pointer]
+          - generic [ref=f1e237]:
+            - generic [ref=f1e238]: DATE
+            - generic [ref=f1e239]:
+              - button "Today 26 Oct" [pressed] [ref=f1e240] [cursor=pointer]:
+                - strong [ref=f1e241]: Today
+                - generic [ref=f1e242]: 26 Oct
+              - button "Tue 27 Oct" [ref=f1e243] [cursor=pointer]:
+                - strong [ref=f1e244]: Tue
+                - generic [ref=f1e245]: 27 Oct
+              - button "Wed 28 Oct" [ref=f1e246] [cursor=pointer]:
+                - strong [ref=f1e247]: Wed
+                - generic [ref=f1e248]: 28 Oct
+              - button "Thu 29 Oct" [ref=f1e249] [cursor=pointer]:
+                - strong [ref=f1e250]: Thu
+                - generic [ref=f1e251]: 29 Oct
+              - button "Fri 30 Oct" [ref=f1e252] [cursor=pointer]:
+                - strong [ref=f1e253]: Fri
+                - generic [ref=f1e254]: 30 Oct
+              - button "Sat 31 Oct" [ref=f1e255] [cursor=pointer]:
+                - strong [ref=f1e256]: Sat
+                - generic [ref=f1e257]: 31 Oct
+              - button "Sun 1 Nov" [ref=f1e258] [cursor=pointer]:
+                - strong [ref=f1e259]: Sun
+                - generic [ref=f1e260]: 1 Nov
+          - generic [ref=f1e261]:
+            - generic [ref=f1e262]:
+              - generic [ref=f1e263]: AVAILABLE TIMES
+              - generic [ref=f1e264]: Open 07:00 to midnight · 60-minute sessions
+            - generic [ref=f1e265]:
+              - button "07:00 Passed" [disabled] [ref=f1e266]:
+                - text: 07:00
+                - generic [ref=f1e267]: Passed
+              - button "08:00 Passed" [disabled] [ref=f1e268]:
+                - text: 08:00
+                - generic [ref=f1e269]: Passed
+              - button "09:00 Passed" [disabled] [ref=f1e270]:
+                - text: 09:00
+                - generic [ref=f1e271]: Passed
+              - button "10:00 Passed" [disabled] [ref=f1e272]:
+                - text: 10:00
+                - generic [ref=f1e273]: Passed
+              - button "11:00 Passed" [disabled] [ref=f1e274]:
+                - text: 11:00
+                - generic [ref=f1e275]: Passed
+              - button "12:00 Passed" [disabled] [ref=f1e276]:
+                - text: 12:00
+                - generic [ref=f1e277]: Passed
+              - button "13:00 Passed" [disabled] [ref=f1e278]:
+                - text: 13:00
+                - generic [ref=f1e279]: Passed
+              - button "14:00 Passed" [disabled] [ref=f1e280]:
+                - text: 14:00
+                - generic [ref=f1e281]: Passed
+              - button "15:00 Passed" [disabled] [ref=f1e282]:
+                - text: 15:00
+                - generic [ref=f1e283]: Passed
+              - button "16:00" [ref=f1e284] [cursor=pointer]
+              - button "17:00" [ref=f1e285] [cursor=pointer]
+              - button "18:00 Booked" [disabled] [ref=f1e286]:
+                - text: 18:00
+                - generic [ref=f1e287]: Booked
+              - button "19:00" [active] [pressed] [ref=f1e288] [cursor=pointer]
+              - button "20:00" [ref=f1e289] [cursor=pointer]
+              - button "21:00" [ref=f1e290] [cursor=pointer]
+              - button "22:00" [ref=f1e291] [cursor=pointer]
+              - button "23:00" [ref=f1e292] [cursor=pointer]
+        - complementary [ref=f1e293]:
+          - group "ADD EQUIPMENT" [ref=f1e294]:
+            - generic [ref=f1e296] [cursor=pointer]:
+              - checkbox "Balls, per hour ₦5,000" [ref=f1e297]
+              - generic [ref=f1e298]: Balls, per hour
+              - generic [ref=f1e299]: ₦5,000
+            - generic [ref=f1e300] [cursor=pointer]:
+              - checkbox "Racket, per hour ₦5,000" [ref=f1e301]
+              - generic [ref=f1e302]: Racket, per hour
+              - generic [ref=f1e303]: ₦5,000
+          - generic [ref=f1e304]:
+            - generic [ref=f1e305]: 1 session
+            - strong [ref=f1e306]: Padel · Mon 26 Oct, 19:00 to 20:00
+          - button "Continue" [ref=f1e307] [cursor=pointer]
+          - paragraph [ref=f1e310]: No charge for facility use.
+  - alert [ref=f1e220]

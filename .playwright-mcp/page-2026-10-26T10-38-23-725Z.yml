@@ -1,0 +1,78 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner [ref=f1e3]:
+      - link "Transcorp Hotels Recreation home" [ref=f1e4] [cursor=pointer]:
+        - /url: /
+        - img "Transcorp Hotels" [ref=f1e5]
+        - generic [ref=f1e7]: RECREATION
+      - navigation "Main" [ref=f1e8]:
+        - link "My bookings" [ref=f1e9] [cursor=pointer]:
+          - /url: /bookings
+        - link "Messages" [ref=f1e10] [cursor=pointer]:
+          - /url: /messages
+        - link "Membership" [ref=f1e11] [cursor=pointer]:
+          - /url: /membership
+        - link "Terms" [ref=f1e12] [cursor=pointer]:
+          - /url: /terms
+      - link "Book a facility" [ref=f1e13] [cursor=pointer]:
+        - /url: /?book=1
+        - text: Book a facility
+        - generic [aria-hidden] [ref=f1e14]: →
+    - generic [ref=f1e16]:
+      - banner [ref=f1e173]:
+        - link "Back" [ref=f1e174] [cursor=pointer]:
+          - /url: /membership
+        - generic [ref=f1e177]:
+          - heading "Complete your profile" [level=1] [ref=f1e178]
+          - generic [ref=f1e179]: Individual, annual · MA-2026-0418
+      - generic [ref=f1e180]:
+        - generic [ref=f1e181]:
+          - generic [ref=f1e182]: Payment received. Your membership is pending until you finish this form.
+          - generic [ref=f1e183]: Pending
+        - generic [ref=f1e184]:
+          - list "Profile steps" [ref=f1e185]:
+            - listitem [ref=f1e186]: 1 You
+            - listitem [ref=f1e187]: 2 Facilities
+            - listitem [ref=f1e188]: 3 Health
+            - listitem [ref=f1e189]: 4 Referee
+            - listitem [ref=f1e190]: 5 Declaration
+          - generic [ref=f1e191]:
+            - heading "Your details" [level=2] [ref=f1e192]
+            - generic [ref=f1e193]:
+              - generic [ref=f1e194]: Full name
+              - textbox "Full name" [ref=f1e195]: Ada Obi
+            - generic [ref=f1e196]:
+              - generic [ref=f1e197]:
+                - generic [ref=f1e198]: Phone
+                - textbox "Phone" [ref=f1e199]: "08030000000"
+              - generic [ref=f1e200]:
+                - generic [ref=f1e201]: Email
+                - textbox "Email" [ref=f1e202]: ada@example.com
+            - generic [ref=f1e203]:
+              - generic [ref=f1e204]: Office address
+              - textbox "Office address" [ref=f1e205]
+            - generic [ref=f1e206]:
+              - generic [ref=f1e207]: Passport photo
+              - button "Passport photo" [ref=f1e208]
+              - generic [ref=f1e209]: Used on your membership card.
+          - button "Continue" [ref=f1e211]
+    - contentinfo [ref=f1e108]:
+      - link "Transcorp Hotels Recreation home" [ref=f1e110] [cursor=pointer]:
+        - /url: /
+        - img "Transcorp Hotels" [ref=f1e111]
+        - generic [ref=f1e113]: RECREATION
+      - generic [ref=f1e114]: © 2026 Transcorp Hotels Plc
+      - link "Help centre" [ref=f1e115] [cursor=pointer]:
+        - /url: /messages
+      - link "Terms" [ref=f1e116] [cursor=pointer]:
+        - /url: /terms
+  - generic [ref=f1e121] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=f1e122]
+    - generic [ref=f1e212]:
+      - button "Open issues overlay" [ref=f1e213]:
+        - generic [ref=f1e214]:
+          - generic [aria-hidden] [ref=f1e215]: "0"
+          - generic [ref=f1e216]: "1"
+        - generic [ref=f1e217]: Issue
+      - button "Collapse issues badge" [ref=f1e218]
+  - alert [ref=f1e126]: Complete your profile
